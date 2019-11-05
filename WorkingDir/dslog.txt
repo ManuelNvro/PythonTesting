@@ -1,39 +1,28 @@
 Log-file of program ./dymosim
-(generated: Tue Oct 29 14:20:41 2019)
+(generated: Tue Nov  5 13:35:13 2019)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
-... "EXAC1.mat" creating (simulation result file)
+... "/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/EXAC1.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
-(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dynasim))
-Error: The following error was detected at time: 2.15
-
-Model error - power: (constantLoad.v) ^ (constantLoad.b2-2.0) = (0) ^ (-0.231)
-
-First evaluation failed for non-linear solver.
-
-Error: The following error was detected at time: 2.15
-
-Model error - power: (constantLoad.v) ^ (constantLoad.b2-2.0) = (0) ^ (-0.231)
-
-Non-linear solver will attempt to handle this problem.
-
-Integration terminated successfully at T = 10
-   CPU-time for integration      : 1.12 seconds
-   CPU-time for one GRID interval: 2.25 milliseconds
-   Number of result points       : 557
-   Number of GRID   points       : 501
-   Number of (successful) steps  : 1213
-   Number of F-evaluations       : 7672
-   Number of H-evaluations       : 1968
-   Number of Jacobian-evaluations: 424
-   Number of (model) time events : 2
-   Number of (U) time events     : 0
-   Number of state    events     : 27
-   Number of step     events     : 0
-   Minimum integration stepsize  : 1.48e-07
-   Maximum integration stepsize  : 0.689
-   Maximum integration order     : 5
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+Integration terminated successfully at T = 1
+   CPU-time for integration                : 0.614 seconds
+   CPU-time for one grid interval          : 0.123 milliseconds
+   CPU-time for initialization             : 0.000497 seconds
+   Number of result points                 : 5003
+   Number of grid points                   : 5001
+   Number of accepted steps                : 24
+   Number of f-evaluations (dynamics)      : 24
+   Number of crossing function evaluations : 5027
+   Number of Jacobian-evaluations          : 23
+   Number of model time events             : 0
+   Number of input time events             : 0
+   Number of state events                  : 1
+   Number of step events                   : 0
+   Minimum integration stepsize            : 2e-07
+   Maximum integration stepsize            : 0.419
+   Maximum integration order               : 2
 Calling terminal section
 ... "dsfinal.txt" creating (final states)

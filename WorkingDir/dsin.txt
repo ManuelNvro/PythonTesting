@@ -9,9 +9,9 @@ Modelica experiment file
 double experiment(7,1)
        0                   # StartTime    Time at which integration starts
                            #              (and linearization and trimming time)
-      10                   # StopTime     Time at which integration stops
+       1                   # StopTime     Time at which integration stops
        0                   # Increment    Communication step size, if > 0
-     500                   # nInterval    Number of communication intervals, if > 0
+    5000                   # nInterval    Number of communication intervals, if > 0
   1.0000000000000000E-04   # Tolerance    Relative precision of signals for
                            #              simulation, linearization and trimming
        0                   # MaxFixedStep Maximum step size of fixed step size
@@ -102,7 +102,7 @@ int settings(13,1)
 
 
 #    Names of initial variables
-char initialName(539,67)
+char initialName(543,67)
 SysData.S_b
 SysData.fn
 pwLine.p.vr
@@ -622,12 +622,16 @@ eXAC1_1.rotatingExciterWithDemagnetizationLimited.feedback.y
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.k
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.outMax
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.outMin
+eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.use_reset
+eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.use_set
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.initType
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.limitsAtInit
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.y_start
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.strict
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.y
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.der(y)
+eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.local_reset
+eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.local_set
 eXAC1_1.rotatingExciterWithDemagnetizationLimited.K_D
 eXAC1_1.TransducerDelay.state
 eXAC1_1.TransducerDelay.der(state)
@@ -643,7 +647,7 @@ eXAC1_1.Ifd0
 eXAC1_1.VE0
 eXAC1_1.VFE0
 
-double initialValue(539,6)
+double initialValue(543,6)
  -1  1.0000000000000000E+08       0                       0                
   1   280   # SysData.S_b
  -1      50                       0                       0                
@@ -1682,6 +1686,10 @@ double initialValue(539,6)
   1   280   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.outMax
  -1       0                       0                       0                
   1   280   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.outMin
+  0       0                       0                       0                
+  6   769   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.use_reset
+  0       0                       0                       0                
+  6   769   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.use_set
   0       4                       1                       4                
   6   258   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.initType
   0       1                       0                       0                
@@ -1694,6 +1702,10 @@ double initialValue(539,6)
   2   272   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.y
   0       0                       0                       0                
   3   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.der(y)
+  0       0                       0                       0                
+  6   769   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.local_reset
+  0       0                       0                       0                
+  6   768   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.local_set
   0       0                       0                       0                
   6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.K_D
  -1       0                       0                       0                
@@ -1772,7 +1784,7 @@ double initialValue(539,6)
 #   nominal value (and maybe minimum and maximum values given in 
 #   column 3 and 4). If these values are zero, scale(i)=1 is used).
 #
-char initialDescription(539,127)
+char initialDescription(543,127)
 System base [VA|MVA]
 System frequency [Hz]
 Real part of the voltage [1]
@@ -1934,12 +1946,12 @@ Enable angle_0 in parameter list [:#(type=Boolean)]
 Display power flow: [:#(type=Boolean)]
 Enable displayPF in parameter list [:#(type=Boolean)]
 Initial angle in rad [rad|deg]
-[W]
-[var]
-[W]
-[var]
-[W]
-[var]
+Real part of complex power (active power) [W]
+Imaginary part of complex power (reactive power) [var]
+Real part of complex power (active power) [W]
+Imaginary part of complex power (reactive power) [var]
+Real part of complex power (active power) [W]
+Imaginary part of complex power (reactive power) [var]
 Real part of complex number
 Imaginary part of complex number
 Real part of complex number
@@ -2195,8 +2207,8 @@ Constant output value
 Constant output value [1]
 Connector of Real input signal 2 [1]
 Connector of Real output signal
-Gain of upper input
-Gain of lower input
+Gain of input signal 1
+Gain of input signal 2
 [1]
 [1]
 [1]
@@ -2261,10 +2273,10 @@ Size of Numerator of transfer function. [:#(type=Integer)]
 Scaled vector x
 der(Scaled vector x)
 Lead time constant [s]
-Gain of upper input
-Gain of middle input
-Gain of lower input
-Connector 1 of Real input signals
+Gain of input signal 1
+Gain of input signal 2
+Gain of input signal 3
+Connector of Real input signal 1
 Rectifier load factor (pu) [1]
 Gain value multiplied with input signal [1]
 Output signal connector [1]
@@ -2279,10 +2291,10 @@ Saturation at E_2
 
 Gain value multiplied with input signal [1]
 Output signal connector
-Gain of upper input
-Gain of middle input
-Gain of lower input
-Connector 1 of Real input signals
+Gain of input signal 1
+Gain of input signal 2
+Gain of input signal 3
+Connector of Real input signal 1
 Connector of Real input signal 2
 Saturation at E1
 Saturation at E2
@@ -2292,12 +2304,16 @@ Saturation at E2
 Integrator gain [1]
 Upper limit of output
 Lower limit of output
+=true, if reset port enabled [:#(type=Boolean)]
+=true, if set port enabled and used as reinitialization value when reset [:#(type=Boolean)]
 Type of initialization (1: no init, 2: steady state, 3/4: initial output) [:#(type=Modelica.Blocks.Types.Init)]
 = false, if limits are ignored during initialization (i.e., der(y)=k*u) [:#(type=Boolean)]
 Initial or guess value of output (must be in the limits outMin .. outMax)
 = true, if strict limits with noEvent(..) [:#(type=Boolean)]
 Connector of Real output signal
 der(Connector of Real output signal)
+[:#(type=Boolean)]
+
 Exciter demagnetizing factor (pu)
 [1]
 [s-1]
@@ -2305,9 +2321,9 @@ Gain
 Lag time constant [s]
 Output start value [1]
 [s]
-Gain of upper input
-Gain of middle input
-Gain of lower input
+Gain of input signal 1
+Gain of input signal 2
+Gain of input signal 3
 
 [1]
 
