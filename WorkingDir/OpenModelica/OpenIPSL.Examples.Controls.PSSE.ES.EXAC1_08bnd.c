@@ -319,11 +319,11 @@ static void OpenIPSL_Examples_Controls_PSSE_ES_EXAC1_eqFunction_363(DATA *data, 
 {
   TRACE_PUSH
   const int equationIndexes[2] = {1,363};
-  modelica_real tmp6;
-  modelica_real tmp7;
-  tmp6 = data->simulationInfo->realParameter[260];
-  tmp7 = data->simulationInfo->realParameter[258];
-  data->modelData->realVarsData[88].attribute /* gENROE.I variable */.start = sqrt((tmp6 * tmp6) + (tmp7 * tmp7));
+  modelica_real tmp0;
+  modelica_real tmp1;
+  tmp0 = data->simulationInfo->realParameter[260];
+  tmp1 = data->simulationInfo->realParameter[258];
+  data->modelData->realVarsData[88].attribute /* gENROE.I variable */.start = sqrt((tmp0 * tmp0) + (tmp1 * tmp1));
     data->localData[0]->realVars[88] /* gENROE.I variable */ = data->modelData->realVarsData[88].attribute /* gENROE.I variable */.start;
     infoStreamPrint(LOG_INIT, 0, "updated start value: %s(start=%g)", data->modelData->realVarsData[88].info /* gENROE.I */.name, (modelica_real) data->localData[0]->realVars[88] /* gENROE.I variable */);
   TRACE_POP

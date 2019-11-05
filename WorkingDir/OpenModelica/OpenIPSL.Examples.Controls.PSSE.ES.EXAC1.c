@@ -1706,17 +1706,12 @@ static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_1_dir,33,_OMC_LIT_RESOURCE_1_dir
 static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_2_name,16,_OMC_LIT_RESOURCE_2_name_data);
 static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_2_dir,41,_OMC_LIT_RESOURCE_2_dir_data);
 
-#define _OMC_LIT_RESOURCE_3_name_data "OCRAIOSPSAT"
-#define _OMC_LIT_RESOURCE_3_dir_data "/home/manuelnvro/dev/Gitted/OCR-AIOS/Models"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_3_name,11,_OMC_LIT_RESOURCE_3_name_data);
-static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_3_dir,43,_OMC_LIT_RESOURCE_3_dir_data);
+#define _OMC_LIT_RESOURCE_3_name_data "OpenIPSL"
+#define _OMC_LIT_RESOURCE_3_dir_data "/home/manuelnvro/dev/Gitted/OpenIPSL/OpenIPSL"
+static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_3_name,8,_OMC_LIT_RESOURCE_3_name_data);
+static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_3_dir,45,_OMC_LIT_RESOURCE_3_dir_data);
 
-#define _OMC_LIT_RESOURCE_4_name_data "OpenIPSL"
-#define _OMC_LIT_RESOURCE_4_dir_data "/home/manuelnvro/dev/Gitted/OpenIPSL/OpenIPSL"
-static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_4_name,8,_OMC_LIT_RESOURCE_4_name_data);
-static const MMC_DEFSTRINGLIT(_OMC_LIT_RESOURCE_4_dir,45,_OMC_LIT_RESOURCE_4_dir_data);
-
-static const MMC_DEFSTRUCTLIT(_OMC_LIT_RESOURCES,10,MMC_ARRAY_TAG) {MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_0_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_0_dir), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_1_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_1_dir), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_2_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_2_dir), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_3_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_3_dir), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_4_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_4_dir)}};
+static const MMC_DEFSTRUCTLIT(_OMC_LIT_RESOURCES,8,MMC_ARRAY_TAG) {MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_0_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_0_dir), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_1_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_1_dir), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_2_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_2_dir), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_3_name), MMC_REFSTRINGLIT(_OMC_LIT_RESOURCE_3_dir)}};
 void OpenIPSL_Examples_Controls_PSSE_ES_EXAC1_setupDataStruc(DATA *data, threadData_t *threadData)
 {
   assertStreamPrint(threadData,0!=data, "Error while initialize Data");
@@ -1727,7 +1722,7 @@ void OpenIPSL_Examples_Controls_PSSE_ES_EXAC1_setupDataStruc(DATA *data, threadD
   data->modelData->modelFilePrefix = "OpenIPSL.Examples.Controls.PSSE.ES.EXAC1";
   data->modelData->resultFileName = NULL;
   data->modelData->modelDir = "/home/manuelnvro/dev/Gitted/OpenIPSL/OpenIPSL/Examples/Controls/PSSE/ES";
-  data->modelData->modelGUID = "{e78eb072-1340-460a-9bb2-8b2b92546543}";
+  data->modelData->modelGUID = "{2a6bde8a-bc6f-485b-aade-4c9f95c79a0b}";
   #if defined(OPENMODELICA_XML_FROM_FILE_AT_RUNTIME)
   data->modelData->initXMLData = NULL;
   data->modelData->modelDataXml.infoXMLData = NULL;

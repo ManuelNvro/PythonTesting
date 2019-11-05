@@ -9,11 +9,11 @@
 
   OPENMODELICAHOME                    = "/usr"
 
-  guid                                = "{e78eb072-1340-460a-9bb2-8b2b92546543}"
+  guid                                = "{2a6bde8a-bc6f-485b-aade-4c9f95c79a0b}"
 
   description                         = "SMIB system with one load and GENROE model"
   generationTool                      = "OpenModelica Compiler OpenModelica 1.13.0"
-  generationDateAndTime               = "2019-11-05T17:23:18Z"
+  generationDateAndTime               = "2019-11-05T17:39:03Z"
 
   variableNamingConvention            = "structured"
 
@@ -47,8 +47,8 @@
   <!-- startTime, stopTime, tolerance are FMI specific, all others are OMC specific -->
   <DefaultExperiment
     startTime      = "0"
-    stopTime       = "3"
-    stepSize       = "0.006"
+    stopTime       = "10"
+    stepSize       = "0.002"
     tolerance      = "1e-06"
     solver        = "dassl"
     outputFormat      = "mat"
