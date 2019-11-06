@@ -1,16 +1,16 @@
 Log-file of program ./dymosim
-(generated: Tue Nov  5 13:54:43 2019)
+(generated: Wed Nov  6 10:12:47 2019)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
-... "/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/EXAC1.mat" creating (simulation result file)
+... "/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/EXAC1.mat" creating (simulation result file)
 
 Integration started at T = 0 using integration method DASSL
 (DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
 Integration terminated successfully at T = 1
-   CPU-time for integration                : 0.676 seconds
-   CPU-time for one grid interval          : 0.135 milliseconds
-   CPU-time for initialization             : 0.000468 seconds
+   CPU-time for integration                : 0.68 seconds
+   CPU-time for one grid interval          : 0.136 milliseconds
+   CPU-time for initialization             : 0.000481 seconds
    Number of result points                 : 5003
    Number of grid points                   : 5001
    Number of accepted steps                : 24

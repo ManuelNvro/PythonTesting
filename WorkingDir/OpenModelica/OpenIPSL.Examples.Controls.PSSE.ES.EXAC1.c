@@ -1722,7 +1722,7 @@ void OpenIPSL_Examples_Controls_PSSE_ES_EXAC1_setupDataStruc(DATA *data, threadD
   data->modelData->modelFilePrefix = "OpenIPSL.Examples.Controls.PSSE.ES.EXAC1";
   data->modelData->resultFileName = NULL;
   data->modelData->modelDir = "/home/manuelnvro/dev/Gitted/OpenIPSL/OpenIPSL/Examples/Controls/PSSE/ES";
-  data->modelData->modelGUID = "{2a6bde8a-bc6f-485b-aade-4c9f95c79a0b}";
+  data->modelData->modelGUID = "{0f204d83-f1d4-4bf8-941d-1abc51bd2904}";
   #if defined(OPENMODELICA_XML_FROM_FILE_AT_RUNTIME)
   data->modelData->initXMLData = NULL;
   data->modelData->modelDataXml.infoXMLData = NULL;
