@@ -9,6 +9,7 @@ omc = OMCSessionZMQ()
 from modelicares import SimRes
 import pandas as pd
 import numpy as np
+import os
 
 
 # In[ ]:
