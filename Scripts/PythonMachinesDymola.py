@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[221]:
+# In[2]:
 
 
 import platform
@@ -19,7 +19,7 @@ import os
 #This is intended to be used in the manuelnvro Dell using Dymola 2020
 
 
-# In[222]:
+# In[3]:
 
 
 #Setting Dymola Interface
@@ -29,7 +29,7 @@ dymola.openModel("/home/manuelnvro/dev/Gitted/PythonTesting/OpenIPSL-master/Open
 print("Dymola Machines Simulation Start...\n")
 
 
-# In[223]:
+# In[4]:
 
 
 #Creation of matrix with names, paths and variables
@@ -40,7 +40,7 @@ machines = { 'names' : ["GENROU","GENSAL", "GENCLS", "GENROE", "GENSAE", "CSVGN1
            'speed' : ['gENROU.SPEED', 'gENSAL.SPEED', 'gENCLS.SPEED', 'gENROE.SPEED', 'gENSAE.SPEED', 'cSVGN1.SPEED']}
 
 
-# In[224]:
+# In[5]:
 
 
 #For loop that will iterate between machines, simulate, and create the .csv file
@@ -57,7 +57,6 @@ for machineNumber, machineName in enumerate(machines['names']):
             print("Simulation failed or model was not found. Below is the translation log:\n")
             log = dymola.getLastErrorLog()
             print(log)
-            #exit(1)
         else:
             print(f"{machineName} Simulation OK...")
             print(".csv Writing Start...")
@@ -76,6 +75,7 @@ for machineNumber, machineName in enumerate(machines['names']):
             print(f"{machineName} Write OK...\n")        
     except DymolaException as ex:
         print("Error: " + str(ex))
+print('Machine Examples Simulation OK...')
 
 
 # In[ ]:

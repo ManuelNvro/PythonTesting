@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Thu Nov  7 15:01:19 2019)
+(generated: Thu Nov  7 15:40:27 2019)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
