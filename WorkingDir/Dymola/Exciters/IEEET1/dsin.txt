@@ -102,7 +102,7 @@ int settings(13,1)
 
 
 #    Names of initial variables
-char initialName(514,41)
+char initialName(506,41)
 SysData.S_b
 SysData.fn
 pwLine.p.vr
@@ -537,37 +537,29 @@ iEEET2_1.V_RMIN
 iEEET2_1.K_E
 iEEET2_1.T_E
 iEEET2_1.K_F
-iEEET2_1.T_F1
-iEEET2_1.T_F2
+iEEET2_1.T_F
 iEEET2_1.E_1
 iEEET2_1.S_EE_1
 iEEET2_1.E_2
 iEEET2_1.S_EE_2
-iEEET2_1.add3_1.k1
-iEEET2_1.add3_1.k2
-iEEET2_1.add3_1.k3
-iEEET2_1.add3_1.u3
-iEEET2_1.add3_1.y
-iEEET2_1.add.u2
-iEEET2_1.add.k1
-iEEET2_1.add.k2
-iEEET2_1.simpleLag.u
-iEEET2_1.simpleLag.state
-iEEET2_1.simpleLag.der(state)
-iEEET2_1.simpleLag.K
-iEEET2_1.simpleLag.T
-iEEET2_1.simpleLag.y_start
-iEEET2_1.simpleLag.T_mod
+iEEET2_1.sum2.k1
+iEEET2_1.sum2.k2
+iEEET2_1.sum2.k3
+iEEET2_1.sum2.u3
+iEEET2_1.sum2.y
+iEEET2_1.sum3.u2
+iEEET2_1.sum3.k1
+iEEET2_1.sum3.k2
 iEEET2_1.derivativeLag.k
 iEEET2_1.derivativeLag.T
 iEEET2_1.derivativeLag.initType
 iEEET2_1.derivativeLag.x_start
 iEEET2_1.derivativeLag.y_start
-iEEET2_1.derivativeLag.u
 iEEET2_1.derivativeLag.x
 iEEET2_1.derivativeLag.der(x)
 iEEET2_1.derivativeLag.zeroGain
 iEEET2_1.simpleLagLim.u
+iEEET2_1.simpleLagLim.y
 iEEET2_1.simpleLagLim.state
 iEEET2_1.simpleLagLim.der(state)
 iEEET2_1.simpleLagLim.K
@@ -610,15 +602,15 @@ iEEET2_1.TransducerDelay.K
 iEEET2_1.TransducerDelay.T
 iEEET2_1.TransducerDelay.y_start
 iEEET2_1.TransducerDelay.T_mod
-iEEET2_1.Limiters.k1
-iEEET2_1.Limiters.k2
-iEEET2_1.V_RMAX0
-iEEET2_1.V_RMIN0
-iEEET2_1.K_E0
+iEEET2_1.DiffV1.k1
+iEEET2_1.DiffV1.k2
+iEEET2_1.VRMAX0
+iEEET2_1.VRMIN0
+iEEET2_1.KE0
 iEEET2_1.SE_Efd0
 iEEET2_1.VR0
 
-double initialValue(514,6)
+double initialValue(506,6)
  -1  1.0000000000000000E+08       0                       0                
   1   280   # SysData.S_b
  -1      50                       0                       0                
@@ -1487,10 +1479,8 @@ double initialValue(514,6)
   1   280   # iEEET2_1.T_E
   0  5.9999999999999998E-02       0                       0                
   6   256   # iEEET2_1.K_F
- -1  2.9999999999999999E-01       0                       0                
-  1   280   # iEEET2_1.T_F1
- -1  5.9999999999999998E-01       0                       0                
-  1   280   # iEEET2_1.T_F2
+ -1       1                       0                       0                
+  1   280   # iEEET2_1.T_F
  -1  2.8500000000000001E+00       0                       0                
   1   280   # iEEET2_1.E_1
  -1  2.9999999999999999E-01       0                       0                
@@ -1500,35 +1490,21 @@ double initialValue(514,6)
  -1  5.9999999999999998E-01       0                       0                
   1   280   # iEEET2_1.S_EE_2
  -1       1                       0                       0                
-  1   280   # iEEET2_1.add3_1.k1
+  1   280   # iEEET2_1.sum2.k1
  -1       1                       0                       0                
-  1   280   # iEEET2_1.add3_1.k2
+  1   280   # iEEET2_1.sum2.k2
  -1       1                       0                       0                
-  1   280   # iEEET2_1.add3_1.k3
+  1   280   # iEEET2_1.sum2.k3
   0       0                       0                       0                
-  6   256   # iEEET2_1.add3_1.u3
+  6   256   # iEEET2_1.sum2.u3
   0       0                       0                       0                
-  6   256   # iEEET2_1.add3_1.y
+  6   256   # iEEET2_1.sum2.y
   0       0                       0                       0                
-  6   256   # iEEET2_1.add.u2
+  6   256   # iEEET2_1.sum3.u2
  -1       1                       0                       0                
-  1   280   # iEEET2_1.add.k1
+  1   280   # iEEET2_1.sum3.k1
  -1      -1                       0                       0                
-  1   280   # iEEET2_1.add.k2
-  0       0                       0                       0                
-  6   256   # iEEET2_1.simpleLag.u
- -1       0                       0                       0                
-  2   272   # iEEET2_1.simpleLag.state
-  0       0                       0                       0                
-  3   256   # iEEET2_1.simpleLag.der(state)
- -1       1                       0                       0                
-  1   280   # iEEET2_1.simpleLag.K
-  0       0                       0                       0                
-  6   256   # iEEET2_1.simpleLag.T
- -1       0                       0                       0                
-  1   280   # iEEET2_1.simpleLag.y_start
-  0       0                       0                       0                
-  6  1280   # iEEET2_1.simpleLag.T_mod
+  1   280   # iEEET2_1.sum3.k2
   0  5.9999999999999998E-02       0                       0                
   6   256   # iEEET2_1.derivativeLag.k
   0  9.9999999999999997E-61  9.9999999999999997E-61 1.0000000000000000E+100
@@ -1539,8 +1515,6 @@ double initialValue(514,6)
   6   256   # iEEET2_1.derivativeLag.x_start
  -1       0                       0                       0                
   1   280   # iEEET2_1.derivativeLag.y_start
-  0       0                       0                       0                
-  6   256   # iEEET2_1.derivativeLag.u
  -1       0                       0                       0                
   2   272   # iEEET2_1.derivativeLag.x
   0       0                       0                       0                
@@ -1549,6 +1523,8 @@ double initialValue(514,6)
   6  1281   # iEEET2_1.derivativeLag.zeroGain
   0       0                       0                       0                
   6   256   # iEEET2_1.simpleLagLim.u
+  0       0                       0                       0                
+  6   256   # iEEET2_1.simpleLagLim.y
  -1       0                       0                       0                
   2   272   # iEEET2_1.simpleLagLim.state
   0       0                       0                       0                
@@ -1634,15 +1610,15 @@ double initialValue(514,6)
   0       0                       0                       0                
   6  1280   # iEEET2_1.TransducerDelay.T_mod
  -1       1                       0                       0                
-  1   280   # iEEET2_1.Limiters.k1
+  1   280   # iEEET2_1.DiffV1.k1
  -1       1                       0                       0                
-  1   280   # iEEET2_1.Limiters.k2
+  1   280   # iEEET2_1.DiffV1.k2
   0       0                       0                       0                
-  6  1280   # iEEET2_1.V_RMAX0
+  6  1280   # iEEET2_1.VRMAX0
   0       0                       0                       0                
-  6  1280   # iEEET2_1.V_RMIN0
+  6  1280   # iEEET2_1.VRMIN0
   0       0                       0                       0                
-  6  1280   # iEEET2_1.K_E0
+  6  1280   # iEEET2_1.KE0
   0       0                       0                       0                
   6  1280   # iEEET2_1.SE_Efd0
   0       0                       0                       0                
@@ -1697,7 +1673,7 @@ double initialValue(514,6)
 #   nominal value (and maybe minimum and maximum values given in 
 #   column 3 and 4). If these values are zero, scale(i)=1 is used).
 #
-char initialDescription(514,127)
+char initialDescription(506,127)
 System base [VA|MVA]
 System frequency [Hz]
 Real part of the voltage [1]
@@ -2127,42 +2103,34 @@ Gain of input signal 2
 Voltage input time constant (s) [s]
 AVR gain
 AVR time constant (s) [s]
-Maximum AVR output (pu)
-Minimum AVR output (pu)
-Exciter field gain
-Exciter time constant s
+Maximum AVR output (pu) [1]
+Minimum AVR output (pu) [1]
+Exciter field gain, s
+Exciter time constant (s)
 Rate feedback gain (pu) [1]
 Rate feedback time constant (s) [s]
-Rate feedback time constant (s) [s]
 Exciter saturation point 1 (pu)
-Saturation at E_1
+Saturation at E1
 Exciter saturation point 2 (pu)
-Saturation at E_2
+Saturation at E2
 Gain of input signal 1
 Gain of input signal 2
 Gain of input signal 3
 Connector of Real input signal 3
 Connector of Real output signal
-Connector of Real input signal 2
+Connector of Real input signal 2 [s-1]
 Gain of input signal 1
 Gain of input signal 2
-Connector of Real input signal [s-1]
-
-
-Gain
-Lag time constant [s]
-Output start value
-[s]
 Gains [1]
 Time constants (T>0 required; T=0 is ideal derivative block) [s]
 Type of initialization (1: no init, 2: steady state, 3: initial state, 4: initial output) [:#(type=Modelica.Blocks.Types.Init)]
 Initial or guess value of state [1]
 Initial value of output (= state) [s-1]
-Connector of Real input signal [1]
 State of block [1]
 der(State of block) [s-1]
 [:#(type=Boolean)]
 Connector of Real input signal
+Connector of Real output signal [1]
 [1]
 [s-1]
 Gain
@@ -2207,9 +2175,9 @@ Output start value [1]
 [s]
 Gain of input signal 1
 Gain of input signal 2
-[1]
-[1]
-[1]
+Maximum AVR output (pu)
+Minimum AVR output (pu)
+Exciter field gain, s [1]
 [1]
 [1]
 

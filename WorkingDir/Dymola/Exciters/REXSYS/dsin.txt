@@ -102,7 +102,7 @@ int settings(13,1)
 
 
 #    Names of initial variables
-char initialName(472,32)
+char initialName(482,34)
 SysData.S_b
 SysData.fn
 pwLine.p.vr
@@ -522,61 +522,71 @@ gENROU.K3d
 gENROU.K4d
 gENROU.K3q
 gENROU.K4q
-sEXS.VoltageReference.k
-sEXS.DiffV.y
-sEXS.DiffV.k1
-sEXS.DiffV.k2
-sEXS.Efd0
-sEXS.V_REF
-sEXS.ECOMP0
-sEXS.T_AT_B
-sEXS.T_B
-sEXS.K
-sEXS.T_E
-sEXS.E_MIN
-sEXS.E_MAX
-sEXS.V_erro.k1
-sEXS.V_erro.k2
-sEXS.V_erro.k3
-sEXS.V_erro.u3
-sEXS.V_erro.y
-sEXS.simpleLagLim.u
-sEXS.simpleLagLim.state
-sEXS.simpleLagLim.der(state)
-sEXS.simpleLagLim.K
-sEXS.simpleLagLim.T
-sEXS.simpleLagLim.y_start
-sEXS.simpleLagLim.outMax
-sEXS.simpleLagLim.outMin
-sEXS.simpleLagLim.T_mod
-sEXS.DiffV1.k1
-sEXS.DiffV1.k2
-sEXS.leadLag.K
-sEXS.leadLag.T1
-sEXS.leadLag.T2
-sEXS.leadLag.y_start
-sEXS.leadLag.x_start
-sEXS.leadLag.TF.y
-sEXS.leadLag.TF.b[1]
-sEXS.leadLag.TF.b[2]
-sEXS.leadLag.TF.a[1]
-sEXS.leadLag.TF.a[2]
-sEXS.leadLag.TF.initType
-sEXS.leadLag.TF.x_start[1]
-sEXS.leadLag.TF.y_start
-sEXS.leadLag.TF.na
-sEXS.leadLag.TF.nb
-sEXS.leadLag.TF.nx
-sEXS.leadLag.TF.bb[1]
-sEXS.leadLag.TF.bb[2]
-sEXS.leadLag.TF.d
-sEXS.leadLag.TF.a_end
-sEXS.leadLag.TF.x_scaled[1]
-sEXS.leadLag.TF.der(x_scaled[1])
-sEXS.leadLag.T2_dummy
 const.k
+sCRX.VoltageReference.k
+sCRX.DiffV.y
+sCRX.DiffV.k1
+sCRX.DiffV.k2
+sCRX.Efd0
+sCRX.V_REF
+sCRX.ECOMP0
+sCRX.T_AT_B
+sCRX.T_B
+sCRX.K
+sCRX.T_E
+sCRX.E_MIN
+sCRX.E_MAX
+sCRX.C_SWITCH
+sCRX.r_cr_fd
+sCRX.V_erro.k1
+sCRX.V_erro.k2
+sCRX.V_erro.k3
+sCRX.V_erro.u3
+sCRX.V_erro.y
+sCRX.imLeadLag.K
+sCRX.imLeadLag.T1
+sCRX.imLeadLag.T2
+sCRX.imLeadLag.y_start
+sCRX.imLeadLag.x_start
+sCRX.imLeadLag.TF.y
+sCRX.imLeadLag.TF.b[1]
+sCRX.imLeadLag.TF.b[2]
+sCRX.imLeadLag.TF.a[1]
+sCRX.imLeadLag.TF.a[2]
+sCRX.imLeadLag.TF.initType
+sCRX.imLeadLag.TF.x_start[1]
+sCRX.imLeadLag.TF.y_start
+sCRX.imLeadLag.TF.na
+sCRX.imLeadLag.TF.nb
+sCRX.imLeadLag.TF.nx
+sCRX.imLeadLag.TF.bb[1]
+sCRX.imLeadLag.TF.bb[2]
+sCRX.imLeadLag.TF.d
+sCRX.imLeadLag.TF.a_end
+sCRX.imLeadLag.TF.x_scaled[1]
+sCRX.imLeadLag.TF.der(x_scaled[1])
+sCRX.imLeadLag.T2_dummy
+sCRX.negCurLogic.Vd
+sCRX.negCurLogic.RC_rfd
+sCRX.negCurLogic.nstartvalue
+sCRX.negCurLogic.Crowbar_V
+sCRX.simpleLagLim.u
+sCRX.simpleLagLim.y
+sCRX.simpleLagLim.state
+sCRX.simpleLagLim.der(state)
+sCRX.simpleLagLim.K
+sCRX.simpleLagLim.T
+sCRX.simpleLagLim.y_start
+sCRX.simpleLagLim.outMax
+sCRX.simpleLagLim.outMin
+sCRX.simpleLagLim.T_mod
+sCRX.switch1.u3
+sCRX.booleanConstant.k
+sCRX.DiffV1.k1
+sCRX.DiffV1.k2
+sCRX.VR0
 
-double initialValue(472,6)
+double initialValue(482,6)
  -1  1.0000000000000000E+08  0  0  1   280   # SysData.S_b
  -1      50                  0  0  1   280   # SysData.fn
   0       0                  0  0  6   260   # pwLine.p.vr
@@ -996,59 +1006,69 @@ double initialValue(472,6)
   0       0                  0  0  6  1280   # gENROU.K4d
   0       0                  0  0  6  1280   # gENROU.K3q
   0       0                  0  0  6  1280   # gENROU.K4q
-  0       1                  0  0  6   256   # sEXS.VoltageReference.k
-  0       0                  0  0  6   256   # sEXS.DiffV.y
- -1       1                  0  0  1   280   # sEXS.DiffV.k1
- -1      -1                  0  0  1   280   # sEXS.DiffV.k2
-  0       0                  0  0  6  1280   # sEXS.Efd0
-  0       1                  0  0  6  1280   # sEXS.V_REF
-  0       0                  0  0  6  1280   # sEXS.ECOMP0
- -1  1.0000000000000001E-01  0  0  1   280   # sEXS.T_AT_B
- -1       1                  0  0  1   280   # sEXS.T_B
- -1     100                  0  0  1   280   # sEXS.K
- -1  1.0000000000000001E-01  0  0  1   280   # sEXS.T_E
- -1     -10                  0  0  1   280   # sEXS.E_MIN
- -1      10                  0  0  1   280   # sEXS.E_MAX
- -1       1                  0  0  1   280   # sEXS.V_erro.k1
- -1       1                  0  0  1   280   # sEXS.V_erro.k2
- -1       1                  0  0  1   280   # sEXS.V_erro.k3
-  0       0                  0  0  6   256   # sEXS.V_erro.u3
-  0       0                  0  0  6   256   # sEXS.V_erro.y
-  0       0                  0  0  6   256   # sEXS.simpleLagLim.u
- -1       0                  0  0  2   272   # sEXS.simpleLagLim.state
-  0       0                  0  0  3   256   # sEXS.simpleLagLim.der(state)
-  0       0                  0  0  6   256   # sEXS.simpleLagLim.K
-  0       0                  0  0  6   256   # sEXS.simpleLagLim.T
-  0       0                  0  0  6   256   # sEXS.simpleLagLim.y_start
-  0       0                  0  0  6   256   # sEXS.simpleLagLim.outMax
-  0       0                  0  0  6   256   # sEXS.simpleLagLim.outMin
-  0       0                  0  0  6  1280   # sEXS.simpleLagLim.T_mod
- -1       1                  0  0  1   280   # sEXS.DiffV1.k1
- -1       1                  0  0  1   280   # sEXS.DiffV1.k2
- -1       1                  0  0  1   280   # sEXS.leadLag.K
-  0       0                  0  0  6   256   # sEXS.leadLag.T1
-  0       0                  0  0  6   256   # sEXS.leadLag.T2
-  0       0                  0  0  6   256   # sEXS.leadLag.y_start
-  0       0                  0  0  6   256   # sEXS.leadLag.x_start
-  0       0                  0  0  6   256   # sEXS.leadLag.TF.y
-  0       0                  0  0  6   256   # sEXS.leadLag.TF.b[1]
-  0       0                  0  0  6   256   # sEXS.leadLag.TF.b[2]
-  0       0                  0  0  6   256   # sEXS.leadLag.TF.a[1]
-  0       1                  0  0  6   256   # sEXS.leadLag.TF.a[2]
-  0       4                  1  4  6   258   # sEXS.leadLag.TF.initType
-  0       0                  0  0  6   256   # sEXS.leadLag.TF.x_start[1]
-  0       0                  0  0  6   256   # sEXS.leadLag.TF.y_start
-  0       2                  0  0  6  1282   # sEXS.leadLag.TF.na
-  0       2                  0  0  6  1282   # sEXS.leadLag.TF.nb
-  0       1                  0  0  6  1282   # sEXS.leadLag.TF.nx
-  0       0                  0  0  6  1280   # sEXS.leadLag.TF.bb[1]
-  0       0                  0  0  6  1280   # sEXS.leadLag.TF.bb[2]
-  0       0                  0  0  6  1280   # sEXS.leadLag.TF.d
-  0       1                  0  0  6  1280   # sEXS.leadLag.TF.a_end
- -1       0                  0  0  2  1296   # sEXS.leadLag.TF.x_scaled[1]
-  0       0                  0  0  3  1280   # sEXS.leadLag.TF.der(x_scaled[1])
-  0       0                  0  0  6  1280   # sEXS.leadLag.T2_dummy
  -1       0                  0  0  1   280   # const.k
+  0       1                  0  0  6   256   # sCRX.VoltageReference.k
+  0       0                  0  0  6   256   # sCRX.DiffV.y
+ -1       1                  0  0  1   280   # sCRX.DiffV.k1
+ -1      -1                  0  0  1   280   # sCRX.DiffV.k2
+  0       0                  0  0  6  1280   # sCRX.Efd0
+  0       1                  0  0  6  1280   # sCRX.V_REF
+  0       0                  0  0  6  1280   # sCRX.ECOMP0
+ -1  1.0000000000000001E-01  0  0  1   280   # sCRX.T_AT_B
+ -1       1                  0  0  1   280   # sCRX.T_B
+ -1     100                  0  0  1   280   # sCRX.K
+ -1  5.0000000000000001E-03  0  0  1   280   # sCRX.T_E
+ -1     -10                  0  0  1   280   # sCRX.E_MIN
+ -1      10                  0  0  1   280   # sCRX.E_MAX
+  0       0                  0  0  6   257   # sCRX.C_SWITCH
+ -1       0                  0  0  1   280   # sCRX.r_cr_fd
+ -1       1                  0  0  1   280   # sCRX.V_erro.k1
+ -1       1                  0  0  1   280   # sCRX.V_erro.k2
+ -1       1                  0  0  1   280   # sCRX.V_erro.k3
+  0       0                  0  0  6   256   # sCRX.V_erro.u3
+  0       0                  0  0  6   256   # sCRX.V_erro.y
+ -1       1                  0  0  1   280   # sCRX.imLeadLag.K
+  0       0                  0  0  6   256   # sCRX.imLeadLag.T1
+  0       0                  0  0  6   256   # sCRX.imLeadLag.T2
+  0       0                  0  0  6   256   # sCRX.imLeadLag.y_start
+ -1       0                  0  0  1   280   # sCRX.imLeadLag.x_start
+  0       0                  0  0  6   256   # sCRX.imLeadLag.TF.y
+  0       0                  0  0  6   256   # sCRX.imLeadLag.TF.b[1]
+  0       0                  0  0  6   256   # sCRX.imLeadLag.TF.b[2]
+  0       0                  0  0  6   256   # sCRX.imLeadLag.TF.a[1]
+  0       1                  0  0  6   256   # sCRX.imLeadLag.TF.a[2]
+  0       4                  1  4  6   258   # sCRX.imLeadLag.TF.initType
+  0       0                  0  0  6   256   # sCRX.imLeadLag.TF.x_start[1]
+  0       0                  0  0  6   256   # sCRX.imLeadLag.TF.y_start
+  0       2                  0  0  6  1282   # sCRX.imLeadLag.TF.na
+  0       2                  0  0  6  1282   # sCRX.imLeadLag.TF.nb
+  0       1                  0  0  6  1282   # sCRX.imLeadLag.TF.nx
+  0       0                  0  0  6  1280   # sCRX.imLeadLag.TF.bb[1]
+  0       0                  0  0  6  1280   # sCRX.imLeadLag.TF.bb[2]
+  0       0                  0  0  6  1280   # sCRX.imLeadLag.TF.d
+  0       1                  0  0  6  1280   # sCRX.imLeadLag.TF.a_end
+ -1       0                  0  0  2  1296   # sCRX.imLeadLag.TF.x_scaled[1]
+  0       0                  0  0  3  1280   # sCRX.imLeadLag.TF.der(x_scaled[1])
+  0       0                  0  0  6  1280   # sCRX.imLeadLag.T2_dummy
+  0       0                  0  0  6   256   # sCRX.negCurLogic.Vd
+  0       0                  0  0  6   256   # sCRX.negCurLogic.RC_rfd
+  0       0                  0  0  6   256   # sCRX.negCurLogic.nstartvalue
+  0       0                  0  0  6   256   # sCRX.negCurLogic.Crowbar_V
+  0       0                  0  0  6   256   # sCRX.simpleLagLim.u
+  0       0                  0  0  6   256   # sCRX.simpleLagLim.y
+ -1       0                  0  0  2   272   # sCRX.simpleLagLim.state
+  0       0                  0  0  3   256   # sCRX.simpleLagLim.der(state)
+  0       0                  0  0  6   256   # sCRX.simpleLagLim.K
+  0       0                  0  0  6   256   # sCRX.simpleLagLim.T
+  0       0                  0  0  6   256   # sCRX.simpleLagLim.y_start
+  0       0                  0  0  6   256   # sCRX.simpleLagLim.outMax
+  0       0                  0  0  6   256   # sCRX.simpleLagLim.outMin
+  0       0                  0  0  6  1280   # sCRX.simpleLagLim.T_mod
+  0       0                  0  0  6   256   # sCRX.switch1.u3
+  0       0                  0  0  6   257   # sCRX.booleanConstant.k
+ -1       1                  0  0  1   280   # sCRX.DiffV1.k1
+ -1      -1                  0  0  1   280   # sCRX.DiffV1.k2
+  0       0                  0  0  6  1280   # sCRX.VR0
 
 
 # Matrix with 6 columns defining the initial value calculation
@@ -1099,7 +1119,7 @@ double initialValue(472,6)
 #   nominal value (and maybe minimum and maximum values given in 
 #   column 3 and 4). If these values are zero, scale(i)=1 is used).
 #
-char initialDescription(472,127)
+char initialDescription(482,127)
 System base [VA|MVA]
 System frequency [Hz]
 Real part of the voltage [1]
@@ -1519,6 +1539,7 @@ q-axis initial rotor flux linkage [1]
 [1]
 [1]
 [1]
+Constant output value
 Constant output value [1]
 Connector of Real output signal
 Gain of input signal 1
@@ -1532,22 +1553,13 @@ Gain of input signal 2
 [s]
 [1]
 [1]
+[:#(type=Boolean)]
+
 Gain of input signal 1
 Gain of input signal 2
 Gain of input signal 3
 Connector of Real input signal 3
 Connector of Real output signal
-Connector of Real input signal
-[1]
-[s-1]
-Gain
-Lag time constant [s]
-Output start value [1]
-Maximum output value [1]
-Minimum output value [1]
-[s]
-Gain of input signal 1
-Gain of input signal 2
 Gain
 Lead time constant [s]
 Lag time constant [s]
@@ -1571,5 +1583,23 @@ Size of Numerator of transfer function. [:#(type=Integer)]
 Scaled vector x
 der(Scaled vector x)
 Lead time constant [s]
-Constant output value
+[1]
+
+[1]
+[1]
+Connector of Real input signal
+Connector of Real output signal [1]
+[1]
+[s-1]
+Gain
+Lag time constant [s]
+Output start value [1]
+Maximum output value [1]
+Minimum output value [1]
+[s]
+Connector of second Real input signal [1]
+Constant output value [:#(type=Boolean)]
+Gain of input signal 1
+Gain of input signal 2
+[1]
 

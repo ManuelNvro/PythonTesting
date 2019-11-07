@@ -1,0 +1,40 @@
+Log-file of program ./dymosim
+(generated: Thu Nov  7 15:00:12 2019)
+
+dymosim started
+... "dsin.txt" loading (dymosim input file)
+... "/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/ESDC1A/ESDC1A.mat" creating (simulation result file)
+
+Integration started at T = 0 using integration method DASSL
+(DAE multi-step solver (dassl/dasslrt of Petzold modified by Dassault Systemes))
+Error: The following error was detected at time: 2.15
+
+Model error - power: (constantLoad.v) ^ (constantLoad.b2-2.0) = (0) ^ (-0.231)
+
+First evaluation failed for non-linear solver.
+
+Error: The following error was detected at time: 2.15
+
+Model error - power: (constantLoad.v) ^ (constantLoad.b2-2.0) = (0) ^ (-0.231)
+
+Non-linear solver will attempt to handle this problem.
+
+Integration terminated successfully at T = 10
+   CPU-time for integration                : 1.41 seconds
+   CPU-time for one grid interval          : 0.282 milliseconds
+   CPU-time for initialization             : 0.000457 seconds
+   Number of result points                 : 5035
+   Number of grid points                   : 5001
+   Number of accepted steps                : 735
+   Number of f-evaluations (dynamics)      : 1309
+   Number of crossing function evaluations : 5913
+   Number of Jacobian-evaluations          : 266
+   Number of model time events             : 2
+   Number of input time events             : 0
+   Number of state events                  : 16
+   Number of step events                   : 0
+   Minimum integration stepsize            : 1.27e-07
+   Maximum integration stepsize            : 0.951
+   Maximum integration order               : 5
+Calling terminal section
+... "dsfinal.txt" creating (final states)

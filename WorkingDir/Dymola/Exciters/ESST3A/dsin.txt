@@ -102,7 +102,7 @@ int settings(13,1)
 
 
 #    Names of initial variables
-char initialName(543,67)
+char initialName(566,37)
 SysData.S_b
 SysData.fn
 pwLine.p.vr
@@ -522,132 +522,155 @@ gENROE.K4d
 gENROE.K3q
 gENROE.K4q
 const.k
-eXAC1_1.VoltageReference.k
-eXAC1_1.DiffV.u2
-eXAC1_1.DiffV.y
-eXAC1_1.DiffV.k1
-eXAC1_1.DiffV.k2
-eXAC1_1.Efd0
-eXAC1_1.V_REF
-eXAC1_1.ECOMP0
-eXAC1_1.imLimitedSimpleLag.u
-eXAC1_1.imLimitedSimpleLag.y
-eXAC1_1.imLimitedSimpleLag.state
-eXAC1_1.imLimitedSimpleLag.der(state)
-eXAC1_1.imLimitedSimpleLag.K
-eXAC1_1.imLimitedSimpleLag.T
-eXAC1_1.imLimitedSimpleLag.y_start
-eXAC1_1.imLimitedSimpleLag.outMax
-eXAC1_1.imLimitedSimpleLag.outMin
-eXAC1_1.imLimitedSimpleLag.T_mod
-eXAC1_1.T_R
-eXAC1_1.T_B
-eXAC1_1.T_C
-eXAC1_1.K_A
-eXAC1_1.T_A
-eXAC1_1.V_RMAX
-eXAC1_1.V_RMIN
-eXAC1_1.T_E
-eXAC1_1.K_F
-eXAC1_1.T_F
-eXAC1_1.K_C
-eXAC1_1.K_D
-eXAC1_1.K_E
-eXAC1_1.E_1
-eXAC1_1.E_2
-eXAC1_1.S_EE_1
-eXAC1_1.S_EE_2
-eXAC1_1.imDerivativeLag.k
-eXAC1_1.imDerivativeLag.T
-eXAC1_1.imDerivativeLag.initType
-eXAC1_1.imDerivativeLag.x_start
-eXAC1_1.imDerivativeLag.y_start
-eXAC1_1.imDerivativeLag.u
-eXAC1_1.imDerivativeLag.y
-eXAC1_1.imDerivativeLag.x
-eXAC1_1.imDerivativeLag.der(x)
-eXAC1_1.imDerivativeLag.zeroGain
-eXAC1_1.leadLag.u
-eXAC1_1.leadLag.K
-eXAC1_1.leadLag.T1
-eXAC1_1.leadLag.T2
-eXAC1_1.leadLag.y_start
-eXAC1_1.leadLag.x_start
-eXAC1_1.leadLag.TF.y
-eXAC1_1.leadLag.TF.b[1]
-eXAC1_1.leadLag.TF.b[2]
-eXAC1_1.leadLag.TF.a[1]
-eXAC1_1.leadLag.TF.a[2]
-eXAC1_1.leadLag.TF.initType
-eXAC1_1.leadLag.TF.x_start[1]
-eXAC1_1.leadLag.TF.y_start
-eXAC1_1.leadLag.TF.na
-eXAC1_1.leadLag.TF.nb
-eXAC1_1.leadLag.TF.nx
-eXAC1_1.leadLag.TF.bb[1]
-eXAC1_1.leadLag.TF.bb[2]
-eXAC1_1.leadLag.TF.d
-eXAC1_1.leadLag.TF.a_end
-eXAC1_1.leadLag.TF.x_scaled[1]
-eXAC1_1.leadLag.TF.der(x_scaled[1])
-eXAC1_1.leadLag.T2_dummy
-eXAC1_1.add3_1.k1
-eXAC1_1.add3_1.k2
-eXAC1_1.add3_1.k3
-eXAC1_1.add3_1.u1
-eXAC1_1.rectifierCommutationVoltageDrop.K_C
-eXAC1_1.rectifierCommutationVoltageDrop.gain2.k
-eXAC1_1.rectifierCommutationVoltageDrop.gain2.y
-eXAC1_1.rectifierCommutationVoltageDrop.fEX.u
-eXAC1_1.rectifierCommutationVoltageDrop.fEX.y
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.T_E
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.K_E
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.E_1
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.E_2
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.S_EE_1
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.S_EE_2
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.Efd0
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.gain.k
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.gain.y
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.Sum.k1
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.Sum.k2
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.Sum.k3
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.Sum.u1
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.VE.u2
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.se1.SE1
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.se1.SE2
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.se1.E1
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.se1.E2
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.feedback.y
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.k
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.outMax
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.outMin
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.use_reset
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.use_set
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.initType
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.limitsAtInit
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.y_start
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.strict
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.y
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.der(y)
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.local_reset
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.local_set
-eXAC1_1.rotatingExciterWithDemagnetizationLimited.K_D
-eXAC1_1.TransducerDelay.state
-eXAC1_1.TransducerDelay.der(state)
-eXAC1_1.TransducerDelay.K
-eXAC1_1.TransducerDelay.T
-eXAC1_1.TransducerDelay.y_start
-eXAC1_1.TransducerDelay.T_mod
-eXAC1_1.add3_2.k1
-eXAC1_1.add3_2.k2
-eXAC1_1.add3_2.k3
-eXAC1_1.VR0
-eXAC1_1.Ifd0
-eXAC1_1.VE0
-eXAC1_1.VFE0
+eSST1A.VoltageReference.k
+eSST1A.DiffV.u2
+eSST1A.DiffV.y
+eSST1A.DiffV.k1
+eSST1A.DiffV.k2
+eSST1A.Efd0
+eSST1A.V_REF
+eSST1A.ECOMP0
+eSST1A.T_R
+eSST1A.V_IMAX
+eSST1A.V_IMIN
+eSST1A.T_C
+eSST1A.T_B
+eSST1A.T_C1
+eSST1A.T_B1
+eSST1A.K_A
+eSST1A.T_A
+eSST1A.V_AMAX
+eSST1A.V_AMIN
+eSST1A.V_RMAX
+eSST1A.V_RMIN
+eSST1A.K_C
+eSST1A.K_F
+eSST1A.T_F
+eSST1A.K_LR
+eSST1A.I_LR
+eSST1A.imDerivativeLag.k
+eSST1A.imDerivativeLag.T
+eSST1A.imDerivativeLag.initType
+eSST1A.imDerivativeLag.x_start
+eSST1A.imDerivativeLag.y_start
+eSST1A.imDerivativeLag.u
+eSST1A.imDerivativeLag.y
+eSST1A.imDerivativeLag.x
+eSST1A.imDerivativeLag.der(x)
+eSST1A.imDerivativeLag.zeroGain
+eSST1A.imLimited.uMax
+eSST1A.imLimited.uMin
+eSST1A.imLimited.strict
+eSST1A.imLimited.homotopyType
+eSST1A.imLimited.limitsAtInit
+eSST1A.imLimited.u
+eSST1A.imLimited.y
+eSST1A.hV_GATE.p
+eSST1A.imGain.k
+eSST1A.imGain.u
+eSST1A.imGain.y
+eSST1A.hV_GATE1.p
+eSST1A.lV_GATE.p
+eSST1A.Vref1.k
+eSST1A.imLeadLag.y
+eSST1A.imLeadLag.K
+eSST1A.imLeadLag.T1
+eSST1A.imLeadLag.T2
+eSST1A.imLeadLag.y_start
+eSST1A.imLeadLag.x_start
+eSST1A.imLeadLag.TF.y
+eSST1A.imLeadLag.TF.b[1]
+eSST1A.imLeadLag.TF.b[2]
+eSST1A.imLeadLag.TF.a[1]
+eSST1A.imLeadLag.TF.a[2]
+eSST1A.imLeadLag.TF.initType
+eSST1A.imLeadLag.TF.x_start[1]
+eSST1A.imLeadLag.TF.y_start
+eSST1A.imLeadLag.TF.na
+eSST1A.imLeadLag.TF.nb
+eSST1A.imLeadLag.TF.nx
+eSST1A.imLeadLag.TF.bb[1]
+eSST1A.imLeadLag.TF.bb[2]
+eSST1A.imLeadLag.TF.d
+eSST1A.imLeadLag.TF.a_end
+eSST1A.imLeadLag.TF.x_scaled[1]
+eSST1A.imLeadLag.TF.der(x_scaled[1])
+eSST1A.imLeadLag.T2_dummy
+eSST1A.imLeadLag1.K
+eSST1A.imLeadLag1.T1
+eSST1A.imLeadLag1.T2
+eSST1A.imLeadLag1.y_start
+eSST1A.imLeadLag1.x_start
+eSST1A.imLeadLag1.TF.y
+eSST1A.imLeadLag1.TF.b[1]
+eSST1A.imLeadLag1.TF.b[2]
+eSST1A.imLeadLag1.TF.a[1]
+eSST1A.imLeadLag1.TF.a[2]
+eSST1A.imLeadLag1.TF.initType
+eSST1A.imLeadLag1.TF.x_start[1]
+eSST1A.imLeadLag1.TF.y_start
+eSST1A.imLeadLag1.TF.na
+eSST1A.imLeadLag1.TF.nb
+eSST1A.imLeadLag1.TF.nx
+eSST1A.imLeadLag1.TF.bb[1]
+eSST1A.imLeadLag1.TF.bb[2]
+eSST1A.imLeadLag1.TF.d
+eSST1A.imLeadLag1.TF.a_end
+eSST1A.imLeadLag1.TF.x_scaled[1]
+eSST1A.imLeadLag1.TF.der(x_scaled[1])
+eSST1A.imLeadLag1.T2_dummy
+eSST1A.add3_1.k1
+eSST1A.add3_1.k2
+eSST1A.add3_1.k3
+eSST1A.add3_1.u3
+eSST1A.simpleLagLim.u
+eSST1A.simpleLagLim.y
+eSST1A.simpleLagLim.state
+eSST1A.simpleLagLim.der(state)
+eSST1A.simpleLagLim.K
+eSST1A.simpleLagLim.T
+eSST1A.simpleLagLim.y_start
+eSST1A.simpleLagLim.outMax
+eSST1A.simpleLagLim.outMin
+eSST1A.simpleLagLim.T_mod
+eSST1A.add2.k1
+eSST1A.add2.k2
+eSST1A.imLimited1.uMax
+eSST1A.imLimited1.uMin
+eSST1A.imLimited1.strict
+eSST1A.imLimited1.homotopyType
+eSST1A.imLimited1.limitsAtInit
+eSST1A.imLimited1.y
+eSST1A.add3_2.k1
+eSST1A.add3_2.k2
+eSST1A.add3_2.k3
+eSST1A.imGain1.k
+eSST1A.imGain1.y
+eSST1A.imGain2.k
+eSST1A.imGain2.y
+eSST1A.add3.u1
+eSST1A.add3.y
+eSST1A.add3.k1
+eSST1A.add3.k2
+eSST1A.imGain3.k
+eSST1A.variableLimiter.strict
+eSST1A.variableLimiter.homotopyType
+eSST1A.variableLimiter.ySimplified
+eSST1A.variableLimiter.limitsAtInit
+eSST1A.TransducerDelay.state
+eSST1A.TransducerDelay.der(state)
+eSST1A.TransducerDelay.K
+eSST1A.TransducerDelay.T
+eSST1A.TransducerDelay.y_start
+eSST1A.TransducerDelay.T_mod
+eSST1A.Limiters.k1
+eSST1A.Limiters.k2
+eSST1A.IFD0
+eSST1A.VA0
+const1.k
+const2.k
 
-double initialValue(543,6)
+double initialValue(566,6)
  -1  1.0000000000000000E+08       0                       0                
   1   280   # SysData.S_b
  -1      50                       0                       0                
@@ -1487,253 +1510,299 @@ double initialValue(543,6)
  -1       0                       0                       0                
   1   280   # const.k
   0       1                       0                       0                
-  6   256   # eXAC1_1.VoltageReference.k
+  6   256   # eSST1A.VoltageReference.k
   0       0                       0                       0                
-  6   256   # eXAC1_1.DiffV.u2
+  6   256   # eSST1A.DiffV.u2
   0       0                       0                       0                
-  6   256   # eXAC1_1.DiffV.y
+  6   256   # eSST1A.DiffV.y
  -1       1                       0                       0                
-  1   280   # eXAC1_1.DiffV.k1
+  1   280   # eSST1A.DiffV.k1
  -1      -1                       0                       0                
-  1   280   # eXAC1_1.DiffV.k2
+  1   280   # eSST1A.DiffV.k2
   0       0                       0                       0                
-  6  1280   # eXAC1_1.Efd0
+  6  1280   # eSST1A.Efd0
+  0       1                       0                       0                
+  6  1280   # eSST1A.V_REF
   0       0                       0                       0                
-  6  1280   # eXAC1_1.V_REF
-  0       0                       0                       0                
-  6  1280   # eXAC1_1.ECOMP0
-  0       0                       0                       0                
-  6   256   # eXAC1_1.imLimitedSimpleLag.u
-  0       0                       0                       0                
-  6   256   # eXAC1_1.imLimitedSimpleLag.y
- -1       0                       0                       0                
-  2   272   # eXAC1_1.imLimitedSimpleLag.state
-  0       0                       0                       0                
-  3   256   # eXAC1_1.imLimitedSimpleLag.der(state)
-  0       0                       0                       0                
-  6   256   # eXAC1_1.imLimitedSimpleLag.K
-  0       0                       0                       0                
-  6   256   # eXAC1_1.imLimitedSimpleLag.T
-  0       0                       0                       0                
-  6   256   # eXAC1_1.imLimitedSimpleLag.y_start
-  0       0                       0                       0                
-  6   256   # eXAC1_1.imLimitedSimpleLag.outMax
-  0       0                       0                       0                
-  6   256   # eXAC1_1.imLimitedSimpleLag.outMin
-  0       0                       0                       0                
-  6  1280   # eXAC1_1.imLimitedSimpleLag.T_mod
- -1  4.0000000000000001E-03       0                       0                
-  1   280   # eXAC1_1.T_R
- -1  4.0000000000000001E-03       0                       0                
-  1   280   # eXAC1_1.T_B
- -1  4.0000000000000001E-03       0                       0                
-  1   280   # eXAC1_1.T_C
- -1     400                       0                       0                
-  1   280   # eXAC1_1.K_A
- -1  2.0000000000000000E-02       0                       0                
-  1   280   # eXAC1_1.T_A
- -1       9                       0                       0                
-  1   280   # eXAC1_1.V_RMAX
- -1 -5.4299999999999997E+00       0                       0                
-  1   280   # eXAC1_1.V_RMIN
- -1  8.0000000000000004E-01       0                       0                
-  1   280   # eXAC1_1.T_E
-  0  2.9999999999999999E-02       0                       0                
-  6   256   # eXAC1_1.K_F
- -1       1                       0                       0                
-  1   280   # eXAC1_1.T_F
- -1  2.0000000000000001E-01       0                       0                
-  1   280   # eXAC1_1.K_C
- -1  4.7999999999999998E-01       0                       0                
-  1   280   # eXAC1_1.K_D
- -1       1                       0                       0                
-  1   280   # eXAC1_1.K_E
- -1  5.2500000000000000E+00       0                       0                
-  1   280   # eXAC1_1.E_1
- -1       7                       0                       0                
-  1   280   # eXAC1_1.E_2
- -1  2.9999999999999999E-02       0                       0                
-  1   280   # eXAC1_1.S_EE_1
+  6  1280   # eSST1A.ECOMP0
  -1  1.0000000000000001E-01       0                       0                
-  1   280   # eXAC1_1.S_EE_2
-  0  2.9999999999999999E-02       0                       0                
-  6   256   # eXAC1_1.imDerivativeLag.k
+  1   280   # eSST1A.T_R
+ -1  2.9999999999999999E-01       0                       0                
+  1   280   # eSST1A.V_IMAX
+ -1 -2.9999999999999999E-01       0                       0                
+  1   280   # eSST1A.V_IMIN
+ -1       2                       0                       0                
+  1   280   # eSST1A.T_C
+ -1      10                       0                       0                
+  1   280   # eSST1A.T_B
+ -1  8.0000000000000002E-02       0                       0                
+  1   280   # eSST1A.T_C1
+ -1  8.3000000000000004E-02       0                       0                
+  1   280   # eSST1A.T_B1
+ -1     300                       0                       0                
+  1   280   # eSST1A.K_A
+ -1  1.0000000000000001E-01       0                       0                
+  1   280   # eSST1A.T_A
+ -1       7                       0                       0                
+  1   280   # eSST1A.V_AMAX
+ -1      -7                       0                       0                
+  1   280   # eSST1A.V_AMIN
+ -1  5.2000000000000002E+00       0                       0                
+  1   280   # eSST1A.V_RMAX
+ -1 -5.2000000000000002E+00       0                       0                
+  1   280   # eSST1A.V_RMIN
+ -1  3.8000000000000000E-01       0                       0                
+  1   280   # eSST1A.K_C
+  0       1                       0                       0                
+  6   256   # eSST1A.K_F
+ -1       1                       0                       0                
+  1   280   # eSST1A.T_F
+ -1       1                       0                       0                
+  1   280   # eSST1A.K_LR
+ -1       0                       0                       0                
+  1   280   # eSST1A.I_LR
+  0       1                       0                       0                
+  6   256   # eSST1A.imDerivativeLag.k
   0  9.9999999999999997E-61  9.9999999999999997E-61 1.0000000000000000E+100
-  6   256   # eXAC1_1.imDerivativeLag.T
+  6   256   # eSST1A.imDerivativeLag.T
   0       4                       1                       4                
-  6   258   # eXAC1_1.imDerivativeLag.initType
+  6   258   # eSST1A.imDerivativeLag.initType
   0       0                       0                       0                
-  6   256   # eXAC1_1.imDerivativeLag.x_start
+  6   256   # eSST1A.imDerivativeLag.x_start
  -1       0                       0                       0                
-  1   280   # eXAC1_1.imDerivativeLag.y_start
+  1   280   # eSST1A.imDerivativeLag.y_start
   0       0                       0                       0                
-  6   256   # eXAC1_1.imDerivativeLag.u
+  6   256   # eSST1A.imDerivativeLag.u
   0       0                       0                       0                
-  6   256   # eXAC1_1.imDerivativeLag.y
+  6   256   # eSST1A.imDerivativeLag.y
  -1       0                       0                       0                
-  2   272   # eXAC1_1.imDerivativeLag.x
+  2   272   # eSST1A.imDerivativeLag.x
   0       0                       0                       0                
-  3   256   # eXAC1_1.imDerivativeLag.der(x)
+  3   256   # eSST1A.imDerivativeLag.der(x)
   0       0                       0                       0                
-  6  1281   # eXAC1_1.imDerivativeLag.zeroGain
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.u
- -1       1                       0                       0                
-  1   280   # eXAC1_1.leadLag.K
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.T1
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.T2
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.y_start
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.x_start
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.TF.y
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.TF.b[1]
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.TF.b[2]
-  0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.TF.a[1]
+  6  1281   # eSST1A.imDerivativeLag.zeroGain
   0       1                       0                       0                
-  6   256   # eXAC1_1.leadLag.TF.a[2]
+  6   256   # eSST1A.imLimited.uMax
+  0       0                       0                       0                
+  6   256   # eSST1A.imLimited.uMin
+  0       0                       0                       0                
+  6   257   # eSST1A.imLimited.strict
+  0       2                       1                       4                
+  6   258   # eSST1A.imLimited.homotopyType
+  0       1                       0                       0                
+  6   257   # eSST1A.imLimited.limitsAtInit
+  0       0                       0                       0                
+  6   256   # eSST1A.imLimited.u
+  0       0                       0                       0                
+  6   256   # eSST1A.imLimited.y
+  0       0                       0                       0                
+  6   256   # eSST1A.hV_GATE.p
+  0       1                       0                       0                
+  6   256   # eSST1A.imGain.k
+  0       0                       0                       0                
+  6   256   # eSST1A.imGain.u
+  0       0                       0                       0                
+  6   256   # eSST1A.imGain.y
+  0       0                       0                       0                
+  6   256   # eSST1A.hV_GATE1.p
+  0       0                       0                       0                
+  6   256   # eSST1A.lV_GATE.p
+  0       1                       0                       0                
+  6   256   # eSST1A.Vref1.k
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.y
+ -1       1                       0                       0                
+  1   280   # eSST1A.imLeadLag.K
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.T1
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.T2
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.y_start
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.x_start
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.TF.y
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.TF.b[1]
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.TF.b[2]
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag.TF.a[1]
+  0       1                       0                       0                
+  6   256   # eSST1A.imLeadLag.TF.a[2]
   0       4                       1                       4                
-  6   258   # eXAC1_1.leadLag.TF.initType
+  6   258   # eSST1A.imLeadLag.TF.initType
   0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.TF.x_start[1]
+  6   256   # eSST1A.imLeadLag.TF.x_start[1]
   0       0                       0                       0                
-  6   256   # eXAC1_1.leadLag.TF.y_start
+  6   256   # eSST1A.imLeadLag.TF.y_start
   0       2                       0                       0                
-  6  1282   # eXAC1_1.leadLag.TF.na
+  6  1282   # eSST1A.imLeadLag.TF.na
   0       2                       0                       0                
-  6  1282   # eXAC1_1.leadLag.TF.nb
+  6  1282   # eSST1A.imLeadLag.TF.nb
   0       1                       0                       0                
-  6  1282   # eXAC1_1.leadLag.TF.nx
+  6  1282   # eSST1A.imLeadLag.TF.nx
   0       0                       0                       0                
-  6  1280   # eXAC1_1.leadLag.TF.bb[1]
+  6  1280   # eSST1A.imLeadLag.TF.bb[1]
   0       0                       0                       0                
-  6  1280   # eXAC1_1.leadLag.TF.bb[2]
+  6  1280   # eSST1A.imLeadLag.TF.bb[2]
   0       0                       0                       0                
-  6  1280   # eXAC1_1.leadLag.TF.d
+  6  1280   # eSST1A.imLeadLag.TF.d
   0       1                       0                       0                
-  6  1280   # eXAC1_1.leadLag.TF.a_end
+  6  1280   # eSST1A.imLeadLag.TF.a_end
  -1       0                       0                       0                
-  2  1296   # eXAC1_1.leadLag.TF.x_scaled[1]
+  2  1296   # eSST1A.imLeadLag.TF.x_scaled[1]
   0       0                       0                       0                
-  3  1280   # eXAC1_1.leadLag.TF.der(x_scaled[1])
+  3  1280   # eSST1A.imLeadLag.TF.der(x_scaled[1])
   0       0                       0                       0                
-  6  1280   # eXAC1_1.leadLag.T2_dummy
+  6  1280   # eSST1A.imLeadLag.T2_dummy
  -1       1                       0                       0                
-  1   280   # eXAC1_1.add3_1.k1
- -1       1                       0                       0                
-  1   280   # eXAC1_1.add3_1.k2
+  1   280   # eSST1A.imLeadLag1.K
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.T1
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.T2
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.y_start
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.x_start
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.TF.y
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.TF.b[1]
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.TF.b[2]
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.TF.a[1]
+  0       1                       0                       0                
+  6   256   # eSST1A.imLeadLag1.TF.a[2]
+  0       4                       1                       4                
+  6   258   # eSST1A.imLeadLag1.TF.initType
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.TF.x_start[1]
+  0       0                       0                       0                
+  6   256   # eSST1A.imLeadLag1.TF.y_start
+  0       2                       0                       0                
+  6  1282   # eSST1A.imLeadLag1.TF.na
+  0       2                       0                       0                
+  6  1282   # eSST1A.imLeadLag1.TF.nb
+  0       1                       0                       0                
+  6  1282   # eSST1A.imLeadLag1.TF.nx
+  0       0                       0                       0                
+  6  1280   # eSST1A.imLeadLag1.TF.bb[1]
+  0       0                       0                       0                
+  6  1280   # eSST1A.imLeadLag1.TF.bb[2]
+  0       0                       0                       0                
+  6  1280   # eSST1A.imLeadLag1.TF.d
+  0       1                       0                       0                
+  6  1280   # eSST1A.imLeadLag1.TF.a_end
+ -1       0                       0                       0                
+  2  1296   # eSST1A.imLeadLag1.TF.x_scaled[1]
+  0       0                       0                       0                
+  3  1280   # eSST1A.imLeadLag1.TF.der(x_scaled[1])
+  0       0                       0                       0                
+  6  1280   # eSST1A.imLeadLag1.T2_dummy
  -1      -1                       0                       0                
-  1   280   # eXAC1_1.add3_1.k3
-  0       0                       0                       0                
-  6   256   # eXAC1_1.add3_1.u1
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rectifierCommutationVoltageDrop.K_C
-  0       1                       0                       0                
-  6   256   # eXAC1_1.rectifierCommutationVoltageDrop.gain2.k
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rectifierCommutationVoltageDrop.gain2.y
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rectifierCommutationVoltageDrop.fEX.u
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rectifierCommutationVoltageDrop.fEX.y
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.T_E
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.K_E
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.E_1
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.E_2
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.S_EE_1
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.S_EE_2
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.Efd0
-  0       1                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.gain.k
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.gain.y
+  1   280   # eSST1A.add3_1.k1
  -1       1                       0                       0                
-  1   280   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.Sum.k1
+  1   280   # eSST1A.add3_1.k2
  -1       1                       0                       0                
-  1   280   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.Sum.k2
+  1   280   # eSST1A.add3_1.k3
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.Sum.k3
+  6   256   # eSST1A.add3_1.u3
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.Sum.u1
+  6   256   # eSST1A.simpleLagLim.u
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.VE.u2
+  6   256   # eSST1A.simpleLagLim.y
+ -1       0                       0                       0                
+  2   272   # eSST1A.simpleLagLim.state
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.se1.SE1
+  3   256   # eSST1A.simpleLagLim.der(state)
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.se1.SE2
+  6   256   # eSST1A.simpleLagLim.K
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.se1.E1
+  6   256   # eSST1A.simpleLagLim.T
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.se1.E2
+  6   256   # eSST1A.simpleLagLim.y_start
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.feedback.y
+  6   256   # eSST1A.simpleLagLim.outMax
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.k
+  6   256   # eSST1A.simpleLagLim.outMin
+  0       0                       0                       0                
+  6  1280   # eSST1A.simpleLagLim.T_mod
+ -1      -1                       0                       0                
+  1   280   # eSST1A.add2.k1
+ -1       1                       0                       0                
+  1   280   # eSST1A.add2.k2
  -1  9.9999999999999995E+59       0                       0                
-  1   280   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.outMax
+  1   280   # eSST1A.imLimited1.uMax
  -1       0                       0                       0                
-  1   280   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.outMin
+  1   280   # eSST1A.imLimited1.uMin
   0       0                       0                       0                
-  6   769   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.use_reset
-  0       0                       0                       0                
-  6   769   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.use_set
-  0       4                       1                       4                
-  6   258   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.initType
+  6   257   # eSST1A.imLimited1.strict
+  0       2                       1                       4                
+  6   258   # eSST1A.imLimited1.homotopyType
   0       1                       0                       0                
-  6   257   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.limitsAtInit
+  6   257   # eSST1A.imLimited1.limitsAtInit
   0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.y_start
+  6   256   # eSST1A.imLimited1.y
+ -1       1                       0                       0                
+  1   280   # eSST1A.add3_2.k1
+ -1       1                       0                       0                
+  1   280   # eSST1A.add3_2.k2
+ -1      -1                       0                       0                
+  1   280   # eSST1A.add3_2.k3
+  0       1                       0                       0                
+  6   256   # eSST1A.imGain1.k
   0       0                       0                       0                
-  6   257   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.strict
+  6   256   # eSST1A.imGain1.y
+  0       1                       0                       0                
+  6   256   # eSST1A.imGain2.k
+  0       0                       0                       0                
+  6   256   # eSST1A.imGain2.y
+  0       0                       0                       0                
+  6   256   # eSST1A.add3.u1
+  0       0                       0                       0                
+  6   256   # eSST1A.add3.y
+ -1      -1                       0                       0                
+  1   280   # eSST1A.add3.k1
+ -1       1                       0                       0                
+  1   280   # eSST1A.add3.k2
+  0       1                       0                       0                
+  6   256   # eSST1A.imGain3.k
+  0       0                       0                       0                
+  6   257   # eSST1A.variableLimiter.strict
+  0       2                       1                       3                
+  6   258   # eSST1A.variableLimiter.homotopyType
  -1       0                       0                       0                
-  2   272   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.y
-  0       0                       0                       0                
-  3   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.der(y)
-  0       0                       0                       0                
-  6   769   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.local_reset
-  0       0                       0                       0                
-  6   768   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.sISO.local_set
-  0       0                       0                       0                
-  6   256   # eXAC1_1.rotatingExciterWithDemagnetizationLimited.K_D
+  1   280   # eSST1A.variableLimiter.ySimplified
+  0       1                       0                       0                
+  6   257   # eSST1A.variableLimiter.limitsAtInit
  -1       0                       0                       0                
-  2   272   # eXAC1_1.TransducerDelay.state
+  2   272   # eSST1A.TransducerDelay.state
   0       0                       0                       0                
-  3   256   # eXAC1_1.TransducerDelay.der(state)
+  3   256   # eSST1A.TransducerDelay.der(state)
  -1       1                       0                       0                
-  1   280   # eXAC1_1.TransducerDelay.K
+  1   280   # eSST1A.TransducerDelay.K
   0       0                       0                       0                
-  6   256   # eXAC1_1.TransducerDelay.T
+  6   256   # eSST1A.TransducerDelay.T
   0       0                       0                       0                
-  6   256   # eXAC1_1.TransducerDelay.y_start
+  6   256   # eSST1A.TransducerDelay.y_start
   0       0                       0                       0                
-  6  1280   # eXAC1_1.TransducerDelay.T_mod
+  6  1280   # eSST1A.TransducerDelay.T_mod
  -1       1                       0                       0                
-  1   280   # eXAC1_1.add3_2.k1
+  1   280   # eSST1A.Limiters.k1
  -1       1                       0                       0                
-  1   280   # eXAC1_1.add3_2.k2
- -1       1                       0                       0                
-  1   280   # eXAC1_1.add3_2.k3
+  1   280   # eSST1A.Limiters.k2
   0       0                       0                       0                
-  6  1280   # eXAC1_1.VR0
+  6  1280   # eSST1A.IFD0
   0       0                       0                       0                
-  6  1280   # eXAC1_1.Ifd0
-  0       0                       0                       0                
-  6  1280   # eXAC1_1.VE0
-  0       0                       0                       0                
-  6  1280   # eXAC1_1.VFE0
+  6  1280   # eSST1A.VA0
+ -1 -9.9999999999999995E+59       0                       0                
+  1   280   # const1.k
+ -1  9.9999999999999995E+59       0                       0                
+  1   280   # const2.k
 
 
 # Matrix with 6 columns defining the initial value calculation
@@ -1784,7 +1853,7 @@ double initialValue(543,6)
 #   nominal value (and maybe minimum and maximum values given in 
 #   column 3 and 4). If these values are zero, scale(i)=1 is used).
 #
-char initialDescription(543,127)
+char initialDescription(566,139)
 System base [VA|MVA]
 System frequency [Hz]
 Real part of the voltage [1]
@@ -2212,44 +2281,72 @@ Gain of input signal 2
 [1]
 [1]
 [1]
-Connector of Real input signal
-Connector of Real output signal
-
-
-Gain
-Lag time constant [s]
-Output start value
-Maximum output value
-Minimum output value
-[s]
 Voltage input time constant (s) [s]
+
+
 AVR lead-lag time constant (s) [s]
 AVR lead-lag time constant (s) [s]
-AVR gain (pu)
+AVR lead-lag time constant (s) [s]
+AVR lead-lag time constant (s) [s]
+AVR gain
 AVR time constant (s) [s]
-Maximum AVR output (pu)
-Minimum AVR output (pu)
-Exciter time constant (s)
-Rate feedback gain (pu) [1]
-Rate feedback time const (s) [s]
+Maximum AVR output (pu) [1]
+Minimum AVR output (pu) [1]
+[1]
+[1]
 Rectifier load factor (pu) [1]
-Exciter demagnetizing factor (pu)
-Exciter field factor (pu) [1]
-Exciter saturation point 1 (pu)
-Exciter saturation point 2 (pu)
-Saturation at E1
-Saturation at E2
+Rate feedback gain (pu) [1]
+Rate feedback time constant (s) [s]
+[1]
+[1]
 Gains [1]
 Time constants (T>0 required; T=0 is ideal derivative block) [s]
 Type of initialization (1: no init, 2: steady state, 3: initial state, 4: initial output) [:#(type=Modelica.Blocks.Types.Init)]
-Initial or guess value of state
-Initial value of output (= state)
-Connector of Real input signal
-Connector of Real output signal
-State of block
-der(State of block)
+Initial or guess value of state [1]
+Initial value of output (= state) [s-1]
+Connector of Real input signal [1]
+Connector of Real output signal [s-1]
+State of block [1]
+der(State of block) [s-1]
 [:#(type=Boolean)]
+Upper limits of input signals
+Lower limits of input signals
+= true, if strict limits with noEvent(..) [:#(type=Boolean)]
+Simplified model for homotopy-based initialization [:#(type=Modelica.Blocks.Types.LimiterHomotopy)]
+Has no longer an effect and is only kept for backwards compatibility (the implementation uses now the homotopy operator) [:#(type=Boolean)]
 Connector of Real input signal
+Connector of Real output signal [1]
+[1]
+Gain value multiplied with input signal [1]
+Input signal connector
+Output signal connector
+[1]
+[1]
+Constant output value [1]
+Connector of Real output signal
+Gain
+Lead time constant [s]
+Lag time constant [s]
+Output start value
+Start value of state variable [1]
+Connector of Real output signal
+Numerator coefficients of transfer function (e.g., 2*s+3 is specified as {2,3})
+Numerator coefficients of transfer function (e.g., 2*s+3 is specified as {2,3})
+Denominator coefficients of transfer function (e.g., 5*s+6 is specified as {5,6}) [s]
+Denominator coefficients of transfer function (e.g., 5*s+6 is specified as {5,6}) [s]
+Type of initialization (1: no init, 2: steady state, 3: initial state, 4: initial output) [:#(type=Modelica.Blocks.Types.Init)]
+Initial or guess values of states [1]
+Initial value of output (derivatives of y are zero up to nx-1-th derivative)
+Size of Denominator of transfer function. [:#(type=Integer)]
+Size of Numerator of transfer function. [:#(type=Integer)]
+[:#(type=Integer)]
+
+
+
+
+Scaled vector x
+der(Scaled vector x)
+Lead time constant [s]
 Gain
 Lead time constant [s]
 Lag time constant [s]
@@ -2276,45 +2373,41 @@ Lead time constant [s]
 Gain of input signal 1
 Gain of input signal 2
 Gain of input signal 3
-Connector of Real input signal 1
-Rectifier load factor (pu) [1]
-Gain value multiplied with input signal [1]
-Output signal connector [1]
-
-
-Exciter time constant (s)
-Exciter field gain [1]
-Exciter saturation point 1 (pu)
-Exciter saturation point 2 (pu)
-Saturation at E_1
-Saturation at E_2
-
-Gain value multiplied with input signal [1]
-Output signal connector
+Connector of Real input signal 3
+Connector of Real input signal
+Connector of Real output signal [1]
+[1]
+[s-1]
+Gain
+Lag time constant [s]
+Output start value [1]
+Maximum output value [1]
+Minimum output value [1]
+[s]
+Gain of input signal 1
+Gain of input signal 2
+Upper limits of input signals
+Lower limits of input signals
+= true, if strict limits with noEvent(..) [:#(type=Boolean)]
+Simplified model for homotopy-based initialization [:#(type=Modelica.Blocks.Types.LimiterHomotopy)]
+Has no longer an effect and is only kept for backwards compatibility (the implementation uses now the homotopy operator) [:#(type=Boolean)]
+Connector of Real output signal
 Gain of input signal 1
 Gain of input signal 2
 Gain of input signal 3
-Connector of Real input signal 1
-Connector of Real input signal 2
-Saturation at E1
-Saturation at E2
-
-
-
-Integrator gain [1]
-Upper limit of output
-Lower limit of output
-=true, if reset port enabled [:#(type=Boolean)]
-=true, if set port enabled and used as reinitialization value when reset [:#(type=Boolean)]
-Type of initialization (1: no init, 2: steady state, 3/4: initial output) [:#(type=Modelica.Blocks.Types.Init)]
-= false, if limits are ignored during initialization (i.e., der(y)=k*u) [:#(type=Boolean)]
-Initial or guess value of output (must be in the limits outMin .. outMax)
+Gain value multiplied with input signal [1]
+Output signal connector [1]
+Gain value multiplied with input signal [1]
+Output signal connector [1]
+Connector of Real input signal 1 [1]
+Connector of Real output signal [1]
+Gain of input signal 1
+Gain of input signal 2
+Gain value multiplied with input signal [1]
 = true, if strict limits with noEvent(..) [:#(type=Boolean)]
-Connector of Real output signal
-der(Connector of Real output signal)
-[:#(type=Boolean)]
-
-Exciter demagnetizing factor (pu)
+Simplified model for homotopy-based initialization [:#(type=Modelica.Blocks.Types.VariableLimiterHomotopy)]
+Fixed value of output in simplified model [1]
+Has no longer an effect and is only kept for backwards compatibility (the implementation uses now the homotopy operator) [:#(type=Boolean)]
 [1]
 [s-1]
 Gain
@@ -2323,9 +2416,8 @@ Output start value [1]
 [s]
 Gain of input signal 1
 Gain of input signal 2
-Gain of input signal 3
-
 [1]
-
-
+[1]
+Constant output value [1]
+Constant output value [1]
 
