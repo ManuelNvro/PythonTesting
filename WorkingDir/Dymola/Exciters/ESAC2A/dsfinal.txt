@@ -398,129 +398,129 @@ FAULT.p.ir
 FAULT.p.ii
 FAULT.V
 FAULT.angle
-generator.S_b
-generator.enableS_b
-generator.V_b
-generator.enableV_b
-generator.fn
-generator.enablefn
-generator.P_0
-generator.enableP_0
-generator.Q_0
-generator.enableQ_0
-generator.v_0
-generator.enablev_0
-generator.angle_0
-generator.enableangle_0
-generator.displayPF
-generator.enabledisplayPF
-generator.angle_0rad
-generator.M_b
-generator.Tpd0
-generator.Tppd0
-generator.Tppq0
-generator.H
-generator.D
-generator.Xd
-generator.Xq
-generator.Xpd
-generator.Xppd
-generator.Xppq
-generator.Xl
-generator.S10
-generator.S12
-generator.R_a
-generator.ETERM
-generator.EFD
-generator.PELEC
-generator.ISORCE
-generator.w
-generator.der(w)
-generator.delta
-generator.der(delta)
-generator.anglev
-generator.I
-generator.anglei
-generator.P
-generator.Q
-generator.Te
-generator.id
-generator.iq
-generator.ud
-generator.uq
-generator.w_b
-generator.CoB
-generator.vr0
-generator.vi0
-generator.ir0
-generator.ii0
-generator.p0
-generator.q0
-generator.Xpq
-generator.Tpq0
-generator.Xpp
-generator.Epd
-generator.der(Epd)
-generator.Epq
-generator.der(Epq)
-generator.PSIkd
-generator.der(PSIkd)
-generator.PSIkq
-generator.der(PSIkq)
-generator.PSId
-generator.PSIq
-generator.PSIppd
-generator.PSIppq
-generator.PSIpp
-generator.XaqIlq
-generator.Zs.re
-generator.Zs.im
-generator.VT.re
-generator.VT.im
-generator.S.re
-generator.S.im
-generator.It.re
-generator.It.im
-generator.Is.re
-generator.Is.im
-generator.PSIpp0.re
-generator.PSIpp0.im
-generator.ang_PSIpp0
-generator.ang_It
-generator.ang_PSIpp0andIt
-generator.abs_PSIpp0
-generator.dsat
-generator.a
-generator.b
-generator.delta0
-generator.DQ_dq.re
-generator.DQ_dq.im
-generator.PSIpp0_dq.re
-generator.PSIpp0_dq.im
-generator.I_dq.re
-generator.I_dq.im
-generator.PSIppq0
-generator.PSIppd0
-generator.iq0
-generator.id0
-generator.ud0
-generator.uq0
-generator.pm0
-generator.efd0
-generator.Epq0
-generator.Epd0
-generator.PSIkd0
-generator.PSIkq0
-generator.PSId0
-generator.PSIq0
-generator.K1d
-generator.K2d
-generator.K1q
-generator.K2q
-generator.K3d
-generator.K4d
-generator.K3q
-generator.K4q
+gENROU.S_b
+gENROU.enableS_b
+gENROU.V_b
+gENROU.enableV_b
+gENROU.fn
+gENROU.enablefn
+gENROU.P_0
+gENROU.enableP_0
+gENROU.Q_0
+gENROU.enableQ_0
+gENROU.v_0
+gENROU.enablev_0
+gENROU.angle_0
+gENROU.enableangle_0
+gENROU.displayPF
+gENROU.enabledisplayPF
+gENROU.angle_0rad
+gENROU.M_b
+gENROU.Tpd0
+gENROU.Tppd0
+gENROU.Tppq0
+gENROU.H
+gENROU.D
+gENROU.Xd
+gENROU.Xq
+gENROU.Xpd
+gENROU.Xppd
+gENROU.Xppq
+gENROU.Xl
+gENROU.S10
+gENROU.S12
+gENROU.R_a
+gENROU.ETERM
+gENROU.EFD
+gENROU.PELEC
+gENROU.ISORCE
+gENROU.w
+gENROU.der(w)
+gENROU.delta
+gENROU.der(delta)
+gENROU.anglev
+gENROU.I
+gENROU.anglei
+gENROU.P
+gENROU.Q
+gENROU.Te
+gENROU.id
+gENROU.iq
+gENROU.ud
+gENROU.uq
+gENROU.w_b
+gENROU.CoB
+gENROU.vr0
+gENROU.vi0
+gENROU.ir0
+gENROU.ii0
+gENROU.p0
+gENROU.q0
+gENROU.Xpq
+gENROU.Tpq0
+gENROU.Xpp
+gENROU.Epd
+gENROU.der(Epd)
+gENROU.Epq
+gENROU.der(Epq)
+gENROU.PSIkd
+gENROU.der(PSIkd)
+gENROU.PSIkq
+gENROU.der(PSIkq)
+gENROU.PSId
+gENROU.PSIq
+gENROU.PSIppd
+gENROU.PSIppq
+gENROU.PSIpp
+gENROU.XaqIlq
+gENROU.Zs.re
+gENROU.Zs.im
+gENROU.VT.re
+gENROU.VT.im
+gENROU.S.re
+gENROU.S.im
+gENROU.It.re
+gENROU.It.im
+gENROU.Is.re
+gENROU.Is.im
+gENROU.PSIpp0.re
+gENROU.PSIpp0.im
+gENROU.ang_PSIpp0
+gENROU.ang_It
+gENROU.ang_PSIpp0andIt
+gENROU.abs_PSIpp0
+gENROU.dsat
+gENROU.a
+gENROU.b
+gENROU.delta0
+gENROU.DQ_dq.re
+gENROU.DQ_dq.im
+gENROU.PSIpp0_dq.re
+gENROU.PSIpp0_dq.im
+gENROU.I_dq.re
+gENROU.I_dq.im
+gENROU.PSIppq0
+gENROU.PSIppd0
+gENROU.iq0
+gENROU.id0
+gENROU.ud0
+gENROU.uq0
+gENROU.pm0
+gENROU.efd0
+gENROU.Epq0
+gENROU.Epd0
+gENROU.PSIkd0
+gENROU.PSIkq0
+gENROU.PSId0
+gENROU.PSIq0
+gENROU.K1d
+gENROU.K2d
+gENROU.K1q
+gENROU.K2q
+gENROU.K3d
+gENROU.K4d
+gENROU.K3q
+gENROU.K4q
 const.k
 const2.k
 const4.k
@@ -668,21 +668,21 @@ double initialValue(559,6)
   1   280   # SysData.S_b
  -1      50                       0                       0                
   1   280   # SysData.fn
- -2  2.8990137819916234E-01       0                       0                
+ -2  2.8990137819256889E-01       0                       0                
   6   260   # pwLine.p.vr
- -2  1.1397786316132476E-01       0                       0                
+ -2  1.1397786317816007E-01       0                       0                
   6   260   # pwLine.p.vi
- -2  5.7712242220104781E-01       0                       0                
+ -2  5.7712242228505739E-01       0                       0                
   6   388   # pwLine.p.ir
- -2 -1.4466212788848065E+00       0                       0                
+ -2 -1.4466212788514188E+00       0                       0                
   6   388   # pwLine.p.ii
- -2  4.8131166720864683E-33       0                       0                
+ -2  7.3309731441069495E-33       0                       0                
   6   260   # pwLine.n.vr
- -2  2.4343804318959271E-33       0                       0                
+ -2 -5.5387401827333777E-33       0                       0                
   6   260   # pwLine.n.vi
- -2 -5.7712242220104770E-01       0                       0                
+ -2 -5.7712242228505739E-01       0                       0                
   6   388   # pwLine.n.ir
- -2  1.4466212788848065E+00       0                       0                
+ -2  1.4466212788514188E+00       0                       0                
   6   388   # pwLine.n.ii
  -1  1.0000000000000000E-03       0                       0                
   1   280   # pwLine.R
@@ -702,13 +702,13 @@ double initialValue(559,6)
   6   258   # pwLine.opening
  -1       0                       0                       0                
   1   281   # pwLine.displayPF
- -2  2.4257834147295155E+05       0                       0                
+ -2  2.4257834147299317E+05       0                       0                
   6   256   # pwLine.P12
- -2 -7.4386898155064506E-26       0                       0                
+ -2  1.2243328385005206E-24       0                       0                
   6   256   # pwLine.P21
- -2  4.8515668294590354E+07       0                       0                
+ -2  4.8515668294597745E+07       0                       0                
   6   256   # pwLine.Q12
- -2  8.3676925270101202E-25       0                       0                
+ -2  7.4086105942867347E-25       0                       0                
   6   256   # pwLine.Q21
  -2       0                       0                       0                
   6  1280   # pwLine.Y.re
@@ -748,11 +748,11 @@ double initialValue(559,6)
   6   258   # pwLine1.opening
  -1       0                       0                       0                
   1   281   # pwLine1.displayPF
- -2 -1.4360656856424092E-26       0                       0                
+ -2 -5.8892020927650791E-26       0                       0                
   6   256   # pwLine1.P12
  -2 -4.1113770478728520E+02       0                       0                
   6   256   # pwLine1.P21
- -2 -3.1462131002372324E-26       0                       0                
+ -2 -1.6086264763678817E-27       0                       0                
   6   256   # pwLine1.Q12
  -2 -8.2227540961699720E+04       0                       0                
   6   256   # pwLine1.Q21
@@ -794,11 +794,11 @@ double initialValue(559,6)
   6   258   # pwLine3.opening
  -1       0                       0                       0                
   1   281   # pwLine3.displayPF
- -2 -1.4360656856424092E-26       0                       0                
+ -2 -5.8892020927650791E-26       0                       0                
   6   256   # pwLine3.P12
  -2 -2.0556885239364260E+02       0                       0                
   6   256   # pwLine3.P21
- -2 -3.1462131002372324E-26       0                       0                
+ -2 -1.6086264763678817E-27       0                       0                
   6   256   # pwLine3.Q12
  -2 -4.1113770478728242E+04       0                       0                
   6   256   # pwLine3.Q21
@@ -914,13 +914,13 @@ double initialValue(559,6)
   2   272   # gENCLS.eq
  -2       0                       0                       0                
   3   256   # gENCLS.der(eq)
- -2  6.4119988587794959E-05       0                       0                
+ -2  6.4119988587795258E-05       0                       0                
   6   256   # gENCLS.vd
  -2  1.2824004130379763E-02       0                       0                
   6   256   # gENCLS.vq
  -2  1.2824004129557700E+05       0                       0                
   6   256   # gENCLS.id
- -2  3.2059994293897476E-04       0                       0                
+ -2  3.2059994293897627E-04       0                       0                
   6   256   # gENCLS.iq
  -2  8.2227540957457036E-06       0                       0                
   6   256   # gENCLS.P
@@ -1010,17 +1010,17 @@ double initialValue(559,6)
   6   256   # constantLoad.PQBRAK
  -2       2                       0                       0                
   6   258   # constantLoad.characteristic
- -2  6.7729347231569859E-01       0                       0                
+ -2  6.7729347239970827E-01       0                       0                
   6   388   # constantLoad.p.ir
- -2 -1.5266916785991789E+00       0                       0                
+ -2 -1.5266916785657911E+00       0                       0                
   6   388   # constantLoad.p.ii
- -2  4.6826128770102038E-01       0                       0                
+ -2 -6.4702832315112080E-01       0                       0                
   6   256   # constantLoad.angle
- -2  5.3937278561598304E-33       0                       0                
+ -2  9.1880797804243469E-33       0                       0                
   6   256   # constantLoad.v
- -2 -4.5665584442216280E-34       0                       0                
+ -2  1.3421168803558221E-32       0                       0                
   6   256   # constantLoad.P
- -2  8.9969351470575656E-33       0                       0                
+ -2  7.4407831238140906E-33       0                       0                
   6   256   # constantLoad.Q
  -2  5.0000000000000000E-01       0                       0                
   6  1280   # constantLoad.p0
@@ -1060,7 +1060,7 @@ double initialValue(559,6)
   1  1304   # constantLoad.wp
  -2 -1.1800000000000033E-02       0                       0                
   6  1280   # constantLoad.kP
- -2  4.0758709946903962E-25       0                       0                
+ -2  6.1392823042971623E-25       0                       0                
   6  1280   # constantLoad.kI
  -1       0                       0                       0                
   1   280   # constantLoad.d_P
@@ -1124,9 +1124,9 @@ double initialValue(559,6)
   6   388   # GEN1.p.ir
  -2       0                       0                       0                
   6   388   # GEN1.p.ii
- -2  3.1150242755489954E-01       0                       0                
+ -2  3.1150242755492330E-01       0                       0                
   6   256   # GEN1.V
- -2  2.1462807786329609E+01       0                       0                
+ -2  2.1462807789655201E+01       0                       0                
   6   256   # GEN1.angle
  -2  1.0000000000000000E+08       0                       0                
   6   256   # LOAD.S_b
@@ -1166,9 +1166,9 @@ double initialValue(559,6)
   6   388   # LOAD.p.ir
  -2       0                       0                       0                
   6   388   # LOAD.p.ii
- -2  5.3937278561598304E-33       0                       0                
+ -2  9.1880797804243469E-33       0                       0                
   6   256   # LOAD.V
- -2  2.6829395494629672E+01       0                       0                
+ -2 -3.7071992141985994E+01       0                       0                
   6   256   # LOAD.angle
  -2  1.0000000000000000E+08       0                       0                
   6   256   # GEN2.S_b
@@ -1255,251 +1255,251 @@ double initialValue(559,6)
  -2  5.1076895007715059E+01       0                       0                
   6   256   # FAULT.angle
  -2  1.0000000000000000E+08       0                       0                
-  6   256   # generator.S_b
+  6   256   # gENROU.S_b
  -2       1                       0                       0                
-  6   257   # generator.enableS_b
+  6   257   # gENROU.enableS_b
  -1  4.0000000000000000E+05       0                       0                
-  1   280   # generator.V_b
+  1   280   # gENROU.V_b
  -2       0                       0                       0                
-  6   257   # generator.enableV_b
+  6   257   # gENROU.enableV_b
  -2      50                       0                       0                
-  6   256   # generator.fn
+  6   256   # gENROU.fn
  -2       0                       0                       0                
-  6   257   # generator.enablefn
- -1  3.9999952912330598E+07       0                       0                
-  1   280   # generator.P_0
+  6   257   # gENROU.enablefn
+ -1  3.9999952912331000E+07       0                       0                
+  1   280   # gENROU.P_0
  -2       1                       0                       0                
-  6   257   # generator.enableP_0
- -1  5.4165713489055596E+06       0                       0                
-  1   280   # generator.Q_0
+  6   257   # gENROU.enableP_0
+ -1  5.4165713489055997E+06       0                       0                
+  1   280   # gENROU.Q_0
  -2       1                       0                       0                
-  6   257   # generator.enableQ_0
+  6   257   # gENROU.enableQ_0
  -1       1                       0                       0                
-  1   280   # generator.v_0
+  1   280   # gENROU.v_0
  -2       1                       0                       0                
-  6   257   # generator.enablev_0
+  6   257   # gENROU.enablev_0
  -1  4.0462665557861301E+00       0                       0                
-  1   280   # generator.angle_0
+  1   280   # gENROU.angle_0
  -2       1                       0                       0                
-  6   257   # generator.enableangle_0
+  6   257   # gENROU.enableangle_0
  -1       0                       0                       0                
-  1   281   # generator.displayPF
+  1   281   # gENROU.displayPF
  -2       0                       0                       0                
-  6   257   # generator.enabledisplayPF
+  6   257   # gENROU.enabledisplayPF
  -2  7.0620673811798790E-02       0                       0                
-  6  1280   # generator.angle_0rad
+  6  1280   # gENROU.angle_0rad
  -1  1.0000000000000000E+08       0                       0                
-  1   280   # generator.M_b
+  1   280   # gENROU.M_b
  -1       5                       0                       0                
-  1   280   # generator.Tpd0
+  1   280   # gENROU.Tpd0
  -1  5.0000000000000003E-02       0                       0                
-  1   280   # generator.Tppd0
+  1   280   # gENROU.Tppd0
  -1  1.0000000000000001E-01       0                       0                
-  1   280   # generator.Tppq0
+  1   280   # gENROU.Tppq0
  -1       4                       0                       0                
-  1   280   # generator.H
+  1   280   # gENROU.H
  -1       0                       0                       0                
-  1   280   # generator.D
+  1   280   # gENROU.D
  -1  1.4099999999999999E+00       0                       0                
-  1   280   # generator.Xd
+  1   280   # gENROU.Xd
  -1  1.3500000000000001E+00       0                       0                
-  1   280   # generator.Xq
+  1   280   # gENROU.Xq
  -1  2.9999999999999999E-01       0                       0                
-  1   280   # generator.Xpd
+  1   280   # gENROU.Xpd
  -1  2.0000000000000001E-01       0                       0                
-  1   280   # generator.Xppd
+  1   280   # gENROU.Xppd
  -1  2.0000000000000001E-01       0                       0                
-  1   280   # generator.Xppq
+  1   280   # gENROU.Xppq
  -1  1.2000000000000000E-01       0                       0                
-  1   280   # generator.Xl
+  1   280   # gENROU.Xl
  -1  1.0000000000000001E-01       0                       0                
-  1   280   # generator.S10
+  1   280   # gENROU.S10
  -1  5.0000000000000000E-01       0                       0                
-  1   280   # generator.S12
+  1   280   # gENROU.S12
  -1       0                       0                       0                
-  1   280   # generator.R_a
- -2  3.1150242755489954E-01       0                       0                
-  6   256   # generator.ETERM
- -2  2.5072494756232682E+00       0                       0                
-  6   256   # generator.EFD
- -2  2.4257834147295154E-03       0                       0                
-  6   256   # generator.PELEC
- -2  2.5075559852517144E+00       0                       0                
-  6   256   # generator.ISORCE
- -2  3.3901668653224393E-01       0                       0                
-  2   272   # generator.w
- -2  3.7037567253975751E-02       0                       0                
-  3   256   # generator.der(w)
- -2  4.4648510923657119E+02       0                       0                
-  2   272   # generator.delta
- -2  1.0650523318540513E+02       0                       0                
-  3   256   # generator.der(delta)
- -2  3.7459666259412727E-01       0                       0                
-  6   256   # generator.anglev
- -2  1.5574926692378097E+00       0                       0                
-  6   256   # generator.I
- -2  1.9503929477229822E+00       0                       0                
-  6   256   # generator.anglei
- -2  2.4257834147295154E-03       0                       0                
-  6   256   # generator.P
- -2  4.8515668294590353E-01       0                       0                
-  6   256   # generator.Q
- -2  2.4257834147295224E-03       0                       0                
-  6   256   # generator.Te
- -2  1.5574923460689569E+00       0                       0                
-  6   256   # generator.id
- -2  1.0033275306571500E-03       0                       0                
-  6   256   # generator.iq
- -2  1.3568268399375301E-03       0                       0                
-  6   256   # generator.ud
- -2  3.1149947254132204E-01       0                       0                
-  6   256   # generator.uq
+  1   280   # gENROU.R_a
+ -2  3.1150242755492330E-01       0                       0                
+  6   256   # gENROU.ETERM
+ -2  2.5072494756231682E+00       0                       0                
+  6   256   # gENROU.EFD
+ -2  2.4257834147299318E-03       0                       0                
+  6   256   # gENROU.PELEC
+ -2  2.5075559852518912E+00       0                       0                
+  6   256   # gENROU.ISORCE
+ -2  3.3901668653229278E-01       0                       0                
+  2   272   # gENROU.w
+ -2  3.7037567253974710E-02       0                       0                
+  3   256   # gENROU.der(w)
+ -2  4.4648510923662923E+02       0                       0                
+  2   272   # gENROU.delta
+ -2  1.0650523318542048E+02       0                       0                
+  3   256   # gENROU.der(delta)
+ -2  3.7459666265216984E-01       0                       0                
+  6   256   # gENROU.anglev
+ -2  1.5574926692379283E+00       0                       0                
+  6   256   # gENROU.I
+ -2  1.9503929477810249E+00       0                       0                
+  6   256   # gENROU.anglei
+ -2  2.4257834147299318E-03       0                       0                
+  6   256   # gENROU.P
+ -2  4.8515668294597741E-01       0                       0                
+  6   256   # gENROU.Q
+ -2  2.4257834147299244E-03       0                       0                
+  6   256   # gENROU.Te
+ -2  1.5574923460690755E+00       0                       0                
+  6   256   # gENROU.id
+ -2  1.0033275306657254E-03       0                       0                
+  6   256   # gENROU.iq
+ -2  1.3568268399359548E-03       0                       0                
+  6   256   # gENROU.ud
+ -2  3.1149947254134586E-01       0                       0                
+  6   256   # gENROU.uq
  -2  3.1415926535897933E+02       0                       0                
-  6  1280   # generator.w_b
+  6  1280   # gENROU.w_b
  -2       1                       0                       0                
-  6  1280   # generator.CoB
+  6  1280   # gENROU.CoB
  -2  9.9750739641613906E-01       0                       0                
-  6  1280   # generator.vr0
+  6  1280   # gENROU.vr0
  -2  7.0561987607320020E-02       0                       0                
-  6  1280   # generator.vi0
- -2 -4.0282452926742696E-01       0                       0                
-  6  1280   # generator.ir0
- -2  2.5805938020557830E-02       0                       0                
-  6  1280   # generator.ii0
- -2  3.9999952912330600E-01       0                       0                
-  6  1280   # generator.p0
- -2  5.4165713489055599E-02       0                       0                
-  6  1280   # generator.q0
+  6  1280   # gENROU.vi0
+ -2 -4.0282452926743095E-01       0                       0                
+  6  1280   # gENROU.ir0
+ -2  2.5805938020557945E-02       0                       0                
+  6  1280   # gENROU.ii0
+ -2  3.9999952912330999E-01       0                       0                
+  6  1280   # gENROU.p0
+ -2  5.4165713489055994E-02       0                       0                
+  6  1280   # gENROU.q0
  -1  5.9999999999999998E-01       0                       0                
-  1   280   # generator.Xpq
+  1   280   # gENROU.Xpq
  -1  6.9999999999999996E-01       0                       0                
-  1   280   # generator.Tpq0
+  1   280   # gENROU.Tpq0
  -1  2.0000000000000001E-01       0                       0                
-  1   280   # generator.Xpp
- -2  7.5471286812364246E-04       0                       0                
-  2   272   # generator.Epd
- -2 -2.9052845180832027E-06       0                       0                
-  3   256   # generator.der(Epd)
- -2  7.7874610260663657E-01       0                       0                
-  2   272   # generator.Epq
- -2 -6.1301925689249972E-05       0                       0                
-  3   256   # generator.der(Epq)
- -2  4.9839941307389490E-01       0                       0                
-  2   272   # generator.PSIkd
- -2 -3.8655193411729627E-05       0                       0                
-  3   256   # generator.der(PSIkd)
- -2  1.2364510269425918E-03       0                       0                
-  2   272   # generator.PSIkq
- -2 -1.4094410351735099E-06       0                       0                
-  3   256   # generator.der(PSIkq)
- -2  3.1149947254132204E-01       0                       0                
-  6   256   # generator.PSId
- -2 -1.3568268399375301E-03       0                       0                
-  6   256   # generator.PSIq
- -2  6.2299794175511347E-01       0                       0                
-  6   256   # generator.PSIppd
- -2  1.1561613338061001E-03       0                       0                
-  6   256   # generator.PSIppq
- -2  6.2299901455791851E-01       0                       0                
-  6   256   # generator.PSIpp
- -2  2.0336991626582418E-06       0                       0                
-  6   256   # generator.XaqIlq
+  1   280   # gENROU.Xpp
+ -2  7.5471286811563281E-04       0                       0                
+  2   272   # gENROU.Epd
+ -2 -2.9052844945763058E-06       0                       0                
+  3   256   # gENROU.der(Epd)
+ -2  7.7874610260669397E-01       0                       0                
+  2   272   # gENROU.Epq
+ -2 -6.1301925744583491E-05       0                       0                
+  3   256   # gENROU.der(Epq)
+ -2  4.9839941307393459E-01       0                       0                
+  2   272   # gENROU.PSIkd
+ -2 -3.8655193483894124E-05       0                       0                
+  3   256   # gENROU.der(PSIkd)
+ -2  1.2364510269402449E-03       0                       0                
+  2   272   # gENROU.PSIkq
+ -2 -1.4094410506391118E-06       0                       0                
+  3   256   # gENROU.der(PSIkq)
+ -2  3.1149947254134586E-01       0                       0                
+  6   256   # gENROU.PSId
+ -2 -1.3568268399359548E-03       0                       0                
+  6   256   # gENROU.PSIq
+ -2  6.2299794175516099E-01       0                       0                
+  6   256   # gENROU.PSIppd
+ -2  1.1561613338028096E-03       0                       0                
+  6   256   # gENROU.PSIppq
+ -2  6.2299901455796602E-01       0                       0                
+  6   256   # gENROU.PSIpp
+ -2  2.0336991462034139E-06       0                       0                
+  6   256   # gENROU.XaqIlq
  -2       0                       0                       0                
-  6  1280   # generator.Zs.re
+  6  1280   # gENROU.Zs.re
  -2  2.0000000000000001E-01       0                       0                
-  6  1280   # generator.Zs.im
+  6  1280   # gENROU.Zs.im
  -2  9.9750739641613906E-01       0                       0                
-  6  1280   # generator.VT.re
+  6  1280   # gENROU.VT.re
  -2  7.0561987607320020E-02       0                       0                
-  6  1280   # generator.VT.im
- -2  3.9999952912330600E-01       0                       0                
-  6  1280   # generator.S.re
- -2  5.4165713489055599E-02       0                       0                
-  6  1280   # generator.S.im
- -2  4.0282452926742696E-01       0                       0                
-  6  1280   # generator.It.re
- -2 -2.5805938020557830E-02       0                       0                
-  6  1280   # generator.It.im
- -2  7.5563446730402695E-01       0                       0                
-  6  1280   # generator.Is.re
+  6  1280   # gENROU.VT.im
+ -2  3.9999952912330999E-01       0                       0                
+  6  1280   # gENROU.S.re
+ -2  5.4165713489055994E-02       0                       0                
+  6  1280   # gENROU.S.im
+ -2  4.0282452926743095E-01       0                       0                
+  6  1280   # gENROU.It.re
+ -2 -2.5805938020557945E-02       0                       0                
+  6  1280   # gENROU.It.im
+ -2  7.5563446730403094E-01       0                       0                
+  6  1280   # gENROU.Is.re
  -2 -5.0133429201012527E+00       0                       0                
-  6  1280   # generator.Is.im
+  6  1280   # gENROU.Is.im
  -2  1.0026685840202505E+00       0                       0                
-  6  1280   # generator.PSIpp0.re
- -2  1.5112689346080541E-01       0                       0                
-  6  1280   # generator.PSIpp0.im
- -2  1.4959859783685067E-01       0                       0                
-  6  1280   # generator.ang_PSIpp0
- -2 -6.3975056852977358E-02       0                       0                
-  6  1280   # generator.ang_It
- -2  2.1357365468982803E-01       0                       0                
-  6  1280   # generator.ang_PSIpp0andIt
+  6  1280   # gENROU.PSIpp0.re
+ -2  1.5112689346080621E-01       0                       0                
+  6  1280   # gENROU.PSIpp0.im
+ -2  1.4959859783685145E-01       0                       0                
+  6  1280   # gENROU.ang_PSIpp0
+ -2 -6.3975056852977011E-02       0                       0                
+  6  1280   # gENROU.ang_It
+ -2  2.1357365468982847E-01       0                       0                
+  6  1280   # gENROU.ang_PSIpp0andIt
  -2  1.0139938990488493E+00       0                       0                
-  6  1280   # generator.abs_PSIpp0
+  6  1280   # gENROU.abs_PSIpp0
  -2  1.1963840829671517E-01       0                       0                
-  6  1280   # generator.dsat
+  6  1280   # gENROU.dsat
  -2  1.1296640678929462E+00       0                       0                
-  6  1280   # generator.a
- -2 -4.6419782096377088E-01       0                       0                
-  6  1280   # generator.b
- -2  5.0345676141691675E-01       0                       0                
-  6  1280   # generator.delta0
- -2  8.7592006228739594E-01       0                       0                
-  6  1280   # generator.DQ_dq.re
- -2 -4.8245626172995654E-01       0                       0                
-  6  1280   # generator.DQ_dq.im
- -2  9.5116964463459452E-01       0                       0                
-  6  1280   # generator.PSIpp0_dq.re
- -2 -3.5136865886698954E-01       0                       0                
-  6  1280   # generator.PSIpp0_dq.im
- -2  3.4039185037898229E-01       0                       0                
-  6  1280   # generator.I_dq.re
- -2  2.1694915536184395E-01       0                       0                
-  6  1280   # generator.I_dq.im
- -2 -3.5136865886698954E-01       0                       0                
-  6  1280   # generator.PSIppq0
- -2  9.5116964463459452E-01       0                       0                
-  6  1280   # generator.PSIppd0
- -2  3.4039185037898229E-01       0                       0                
-  6  1280   # generator.iq0
- -2  2.1694915536184395E-01       0                       0                
-  6  1280   # generator.id0
- -2  4.1944702894278602E-01       0                       0                
-  6  1280   # generator.ud0
- -2  9.0777981356222570E-01       0                       0                
-  6  1280   # generator.uq0
- -2  3.9999952912330600E-01       0                       0                
-  6  1280   # generator.pm0
- -2  1.3274745449266607E+00       0                       0                
-  6  1280   # generator.efd0
- -2  9.7286456017077894E-01       0                       0                
-  6  1280   # generator.Epq0
- -2  2.1521191871539661E-01       0                       0                
-  6  1280   # generator.Epd0
- -2  9.3381371220564702E-01       0                       0                
-  6  1280   # generator.PSIkd0
- -2  3.7860000689730811E-01       0                       0                
-  6  1280   # generator.PSIkq0
- -2  9.0777981356222570E-01       0                       0                
-  6  1280   # generator.PSId0
- -2  2.8329028879119306E-01       0                       0                
-  6  1280   # generator.PSIq0
+  6  1280   # gENROU.a
+ -2 -4.6419782096377538E-01       0                       0                
+  6  1280   # gENROU.b
+ -2  5.0345676141692042E-01       0                       0                
+  6  1280   # gENROU.delta0
+ -2  8.7592006228739427E-01       0                       0                
+  6  1280   # gENROU.DQ_dq.re
+ -2 -4.8245626172995976E-01       0                       0                
+  6  1280   # gENROU.DQ_dq.im
+ -2  9.5116964463459375E-01       0                       0                
+  6  1280   # gENROU.PSIpp0_dq.re
+ -2 -3.5136865886699231E-01       0                       0                
+  6  1280   # gENROU.PSIpp0_dq.im
+ -2  3.4039185037898495E-01       0                       0                
+  6  1280   # gENROU.I_dq.re
+ -2  2.1694915536184725E-01       0                       0                
+  6  1280   # gENROU.I_dq.im
+ -2 -3.5136865886699231E-01       0                       0                
+  6  1280   # gENROU.PSIppq0
+ -2  9.5116964463459375E-01       0                       0                
+  6  1280   # gENROU.PSIppd0
+ -2  3.4039185037898495E-01       0                       0                
+  6  1280   # gENROU.iq0
+ -2  2.1694915536184725E-01       0                       0                
+  6  1280   # gENROU.id0
+ -2  4.1944702894278929E-01       0                       0                
+  6  1280   # gENROU.ud0
+ -2  9.0777981356222426E-01       0                       0                
+  6  1280   # gENROU.uq0
+ -2  3.9999952912330999E-01       0                       0                
+  6  1280   # gENROU.pm0
+ -2  1.3274745449266638E+00       0                       0                
+  6  1280   # gENROU.efd0
+ -2  9.7286456017077849E-01       0                       0                
+  6  1280   # gENROU.Epq0
+ -2  2.1521191871539833E-01       0                       0                
+  6  1280   # gENROU.Epd0
+ -2  9.3381371220564602E-01       0                       0                
+  6  1280   # gENROU.PSIkd0
+ -2  3.7860000689731110E-01       0                       0                
+  6  1280   # gENROU.PSIkq0
+ -2  9.0777981356222426E-01       0                       0                
+  6  1280   # gENROU.PSId0
+ -2  2.8329028879119533E-01       0                       0                
+  6  1280   # gENROU.PSIq0
  -2  3.4259259259259247E+00       0                       0                
-  6  1280   # generator.K1d
+  6  1280   # gENROU.K1d
  -2  1.4400000000000007E-01       0                       0                
-  6  1280   # generator.K2d
+  6  1280   # gENROU.K2d
  -2  1.3020833333333335E+00       0                       0                
-  6  1280   # generator.K1q
+  6  1280   # gENROU.K1q
  -2  9.6000000000000016E-02       0                       0                
-  6  1280   # generator.K2q
+  6  1280   # gENROU.K2q
  -2  4.4444444444444453E-01       0                       0                
-  6  1280   # generator.K3d
+  6  1280   # gENROU.K3d
  -2  5.5555555555555547E-01       0                       0                
-  6  1280   # generator.K4d
+  6  1280   # gENROU.K4d
  -2  1.6666666666666671E-01       0                       0                
-  6  1280   # generator.K3q
+  6  1280   # gENROU.K3q
  -2  8.3333333333333326E-01       0                       0                
-  6  1280   # generator.K4q
+  6  1280   # gENROU.K4q
  -1       0                       0                       0                
   1   280   # const.k
  -1       0                       0                       0                
@@ -1508,21 +1508,21 @@ double initialValue(559,6)
   1   280   # const4.k
  -1   -1000                       0                       0                
   1   280   # const5.k
- -2  4.0529455209002385E-01       0                       0                
+ -2  4.0529455209002502E-01       0                       0                
   6   256   # eSAC2A.VoltageReference.k
- -2  2.4257834147295154E-03       0                       0                
+ -2  2.4257834147299318E-03       0                       0                
   6   256   # eSAC2A.DiffV.u2
- -2  4.0286876867529431E-01       0                       0                
+ -2  4.0286876867529509E-01       0                       0                
   6   256   # eSAC2A.DiffV.y
  -1       1                       0                       0                
   1   280   # eSAC2A.DiffV.k1
  -1      -1                       0                       0                
   1   280   # eSAC2A.DiffV.k2
- -2  1.3274745449266607E+00       0                       0                
+ -2  1.3274745449266638E+00       0                       0                
   6  1280   # eSAC2A.Efd0
- -2  4.0529455209002385E-01       0                       0                
+ -2  4.0529455209002502E-01       0                       0                
   6  1280   # eSAC2A.V_REF
- -2  3.9999991986758388E-01       0                       0                
+ -2  3.9999991986758504E-01       0                       0                
   6  1280   # eSAC2A.ECOMP0
  -1       0                       0                       0                
   1   280   # eSAC2A.T_R
@@ -1570,7 +1570,7 @@ double initialValue(559,6)
   6   256   # eSAC2A.hV_GATE.p
  -2       9                       0                       0                
   6   256   # eSAC2A.lV_GATE.p
- -2  4.0284298752355835E-01       0                       0                
+ -2  4.0284298752352699E-01       0                       0                
   6   256   # eSAC2A.imLeadLag.u
  -1       1                       0                       0                
   1   280   # eSAC2A.imLeadLag.K
@@ -1578,11 +1578,11 @@ double initialValue(559,6)
   6   256   # eSAC2A.imLeadLag.T1
  -2       0                       0                       0                
   6   256   # eSAC2A.imLeadLag.T2
- -2  5.2946322224399871E-03       0                       0                
+ -2  5.2946322224399992E-03       0                       0                
   6   256   # eSAC2A.imLeadLag.y_start
- -2  5.2946322224399871E-03       0                       0                
+ -2  5.2946322224399992E-03       0                       0                
   6   256   # eSAC2A.imLeadLag.x_start
- -2  8.4011876890110644E-03       0                       0                
+ -2  8.4011876889909139E-03       0                       0                
   6   256   # eSAC2A.imLeadLag.TF.y
  -2       0                       0                       0                
   6   256   # eSAC2A.imLeadLag.TF.b[1]
@@ -1594,9 +1594,9 @@ double initialValue(559,6)
   6   256   # eSAC2A.imLeadLag.TF.a[2]
  -2       4                       1                       4                
   6   258   # eSAC2A.imLeadLag.TF.initType
- -2  5.2946322224399871E-03       0                       0                
+ -2  5.2946322224399992E-03       0                       0                
   6   256   # eSAC2A.imLeadLag.TF.x_start[1]
- -2  5.2946322224399871E-03       0                       0                
+ -2  5.2946322224399992E-03       0                       0                
   6   256   # eSAC2A.imLeadLag.TF.y_start
  -2       2                       0                       0                
   6  1282   # eSAC2A.imLeadLag.TF.na
@@ -1612,21 +1612,21 @@ double initialValue(559,6)
   6  1280   # eSAC2A.imLeadLag.TF.d
  -2       1                       0                       0                
   6  1280   # eSAC2A.imLeadLag.TF.a_end
- -2  8.4011876890110644E-03       0                       0                
+ -2  8.4011876889909139E-03       0                       0                
   2  1296   # eSAC2A.imLeadLag.TF.x_scaled[1]
- -2  3.9444179983454732E-04       0                       0                
+ -2  3.9444179983453610E-04       0                       0                
   3  1280   # eSAC2A.imLeadLag.TF.der(x_scaled[1])
  -2    1000                       0                       0                
   6  1280   # eSAC2A.imLeadLag.T2_dummy
- -2  3.9683728078677033E-01       0                       0                
+ -2  3.9683728078680147E-01       0                       0                
   2   272   # eSAC2A.imSimpleLag.state
- -2 -3.9441149737204085E-04       0                       0                
+ -2 -3.9441149737207154E-04       0                       0                
   3   256   # eSAC2A.imSimpleLag.der(state)
  -1       1                       0                       0                
   1   280   # eSAC2A.imSimpleLag.K
  -2       0                       0                       0                
   6   256   # eSAC2A.imSimpleLag.T
- -2  3.9999991986758388E-01       0                       0                
+ -2  3.9999991986758504E-01       0                       0                
   6   256   # eSAC2A.imSimpleLag.y_start
  -2    1000                       0                       0                
   6  1280   # eSAC2A.imSimpleLag.T_mod
@@ -1642,17 +1642,17 @@ double initialValue(559,6)
   6   257   # eSAC2A.limiter1.limitsAtInit
  -2       4                       0                       0                
   6   256   # eSAC2A.limiter1.y
- -2  4.0284298752355835E-01       0                       0                
+ -2  4.0284298752352699E-01       0                       0                
   6   256   # eSAC2A.simpleLagLim.u
- -2  1.6113687967669600E+02       0                       0                
+ -2  1.6113687967668591E+02       0                       0                
   2   272   # eSAC2A.simpleLagLim.state
- -2  1.5766636367686715E-02       0                       0                
+ -2  1.5766636244052279E-02       0                       0                
   3   256   # eSAC2A.simpleLagLim.der(state)
  -2     400                       0                       0                
   6   256   # eSAC2A.simpleLagLim.K
  -2  2.0000000000000000E-02       0                       0                
   6   256   # eSAC2A.simpleLagLim.T
- -2  2.1178528889759947E+00       0                       0                
+ -2  2.1178528889759995E+00       0                       0                
   6   256   # eSAC2A.simpleLagLim.y_start
  -2       9                       0                       0                
   6   256   # eSAC2A.simpleLagLim.outMax
@@ -1666,17 +1666,17 @@ double initialValue(559,6)
   6   256   # eSAC2A.derivative.T
  -2       4                       1                       4                
   6   258   # eSAC2A.derivative.initType
- -2  2.1178528889759947E+00       0                       0                
+ -2  2.1178528889759995E+00       0                       0                
   6   256   # eSAC2A.derivative.x_start
  -1       0                       0                       0                
   1   280   # eSAC2A.derivative.y_start
- -2  4.0002483092421386E+00       0                       0                
+ -2  4.0002483092421439E+00       0                       0                
   6   256   # eSAC2A.derivative.u
- -2  2.5781151735966290E-05       0                       0                
+ -2  2.5781151768100585E-05       0                       0                
   6   256   # eSAC2A.derivative.y
- -2  3.9993889375176064E+00       0                       0                
+ -2  3.9993889375165406E+00       0                       0                
   2   272   # eSAC2A.derivative.x
- -2  8.5937172453220967E-04       0                       0                
+ -2  8.5937172560335284E-04       0                       0                
   3   256   # eSAC2A.derivative.der(x)
  -2       0                       0                       0                
   6  1281   # eSAC2A.derivative.zeroGain
@@ -1692,11 +1692,11 @@ double initialValue(559,6)
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.S_EE_1
  -2  1.0000000000000001E-01       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.S_EE_2
- -2  1.4806651074111974E+00       0                       0                
+ -2  1.4806651074112009E+00       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.Efd0
  -2       1                       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.gain.k
- -2  2.7966214363213160E+00       0                       0                
+ -2  2.7966214363212365E+00       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.gain.y
  -1       1                       0                       0                
   1   280   # eSAC2A.rotatingExciterWithDemagnetization.Sum.k1
@@ -1716,19 +1716,19 @@ double initialValue(559,6)
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.se1.E1
  -2       7                       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.se1.E2
- -2 -2.4830924213858907E-04       0                       0                
+ -2 -2.4830924214391814E-04       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.feedback.y
- -2  2.7966214363213160E+00       0                       0                
+ -2  2.7966214363212365E+00       0                       0                
   2   272   # eSAC2A.rotatingExciterWithDemagnetization.sISO.y
- -2 -3.1038655267323634E-04       0                       0                
+ -2 -3.1038655267989768E-04       0                       0                
   3   256   # eSAC2A.rotatingExciterWithDemagnetization.sISO.der(y)
  -2  1.2500000000000000E+00       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.sISO.K
- -2  1.4806651074111974E+00       0                       0                
+ -2  1.4806651074112009E+00       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.sISO.y_start
  -2  4.7999999999999998E-01       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.K_D
- -2  7.4924440147482851E+00       0                       0                
+ -2  7.4924440147481093E+00       0                       0                
   6   256   # eSAC2A.rotatingExciterWithDemagnetization.outMax
  -1       1                       0                       0                
   1   280   # eSAC2A.add3_1.k1
@@ -1740,17 +1740,17 @@ double initialValue(559,6)
   6   256   # eSAC2A.rectifierCommutationVoltageDrop.K_C
  -2  2.0000000000000001E-01       0                       0                
   6   256   # eSAC2A.rectifierCommutationVoltageDrop.gain2.k
- -2  5.0151119705034286E-01       0                       0                
+ -2  5.0151119705037828E-01       0                       0                
   6   256   # eSAC2A.rectifierCommutationVoltageDrop.gain2.y
- -2  1.7932752375310124E-01       0                       0                
+ -2  1.7932752375311900E-01       0                       0                
   6   256   # eSAC2A.rectifierCommutationVoltageDrop.fEX.u
- -2  8.9652801879446065E-01       0                       0                
+ -2  8.9652801879445032E-01       0                       0                
   6   256   # eSAC2A.rectifierCommutationVoltageDrop.fEX.y
  -1       0                       0                       0                
   1   280   # eSAC2A.lowLim.k
  -2      10                       0                       0                
   6   256   # eSAC2A.FEMAX.k
- -2  7.4924440147482851E+00       0                       0                
+ -2  7.4924440147481093E+00       0                       0                
   6   256   # eSAC2A.DiffV1.y
  -1       1                       0                       0                
   1   280   # eSAC2A.DiffV1.k1
@@ -1774,13 +1774,13 @@ double initialValue(559,6)
   1   280   # eSAC2A.DiffV2.k1
  -1       1                       0                       0                
   1   280   # eSAC2A.DiffV2.k2
- -2  2.1178528889759947E+00       0                       0                
+ -2  2.1178528889759995E+00       0                       0                
   6  1280   # eSAC2A.VR0
- -2  1.3274745449266607E+00       0                       0                
+ -2  1.3274745449266638E+00       0                       0                
   6  1280   # eSAC2A.Ifd0
- -2  1.4806651074111974E+00       0                       0                
+ -2  1.4806651074112009E+00       0                       0                
   6  1280   # eSAC2A.VE0
- -2  2.1178528889759947E+00       0                       0                
+ -2  2.1178528889759995E+00       0                       0                
   6  1280   # eSAC2A.VFE0
 
 

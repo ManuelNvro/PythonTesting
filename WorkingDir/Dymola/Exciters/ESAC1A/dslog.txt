@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Wed Nov  6 18:25:30 2019)
+(generated: Thu Nov  7 13:52:39 2019)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
@@ -21,8 +21,8 @@ Non-linear solver will attempt to handle this problem.
 
 Integration terminated successfully at T = 10
    CPU-time for integration                : 2.67 seconds
-   CPU-time for one grid interval          : 0.534 milliseconds
-   CPU-time for initialization             : 0.000438 seconds
+   CPU-time for one grid interval          : 0.535 milliseconds
+   CPU-time for initialization             : 0.000447 seconds
    Number of result points                 : 5140
    Number of grid points                   : 5001
    Number of accepted steps                : 2950
