@@ -1,5 +1,5 @@
 Log-file of program ./dymosim
-(generated: Thu Nov  7 15:31:57 2019)
+(generated: Fri Nov  8 14:39:29 2019)
 
 dymosim started
 ... "dsin.txt" loading (dymosim input file)
@@ -20,9 +20,9 @@ Model error - power: (constantLoad.v) ^ (constantLoad.b2-2.0) = (0) ^ (-0.231)
 Non-linear solver will attempt to handle this problem.
 
 Integration terminated successfully at T = 10
-   CPU-time for integration                : 0.776 seconds
-   CPU-time for one grid interval          : 0.155 milliseconds
-   CPU-time for initialization             : 0.000437 seconds
+   CPU-time for integration                : 0.726 seconds
+   CPU-time for one grid interval          : 0.145 milliseconds
+   CPU-time for initialization             : 0.000418 seconds
    Number of result points                 : 5006
    Number of grid points                   : 5001
    Number of accepted steps                : 110

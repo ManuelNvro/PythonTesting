@@ -9,11 +9,11 @@
 
   OPENMODELICAHOME                    = "/usr"
 
-  guid                                = "{704b9fce-e783-4f97-949b-93efc535f117}"
+  guid                                = "{3f4972a6-eb4f-4ccd-a2fd-26e4369ca550}"
 
   description                         = "SMIB system with one load and GENROE model"
   generationTool                      = "OpenModelica Compiler OpenModelica 1.13.0"
-  generationDateAndTime               = "2019-11-06T10:47:38Z"
+  generationDateAndTime               = "2019-11-08T10:52:29Z"
 
   variableNamingConvention            = "structured"
 
