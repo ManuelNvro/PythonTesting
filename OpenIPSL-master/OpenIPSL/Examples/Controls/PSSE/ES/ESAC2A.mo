@@ -28,8 +28,6 @@ model ESAC2A "SMIB model example of GENROU with Excitation System ESAC2A"
         extent={{-4,-4},{4,4}},
         rotation=180,
         origin={-42,-26})));
-  Modelica.Blocks.Sources.Constant const2(k=0)
-    annotation (Placement(transformation(extent={{-110,166},{-94,182}})));
   Modelica.Blocks.Sources.Constant const4(k=1000) annotation (Placement(
         transformation(
         extent={{-5,-5},{5,5}},
@@ -72,7 +70,6 @@ equation
       smooth=Smooth.None));
   connect(gENROU.PMECH0, gENROU.PMECH) annotation (Line(
       points={{-78.6,8.5},{-74,8.5},{-74,20},{-110,20},{-110,8.5},{-110.8,8.5}},
-
       color={0,0,127},
       smooth=Smooth.None));
 
