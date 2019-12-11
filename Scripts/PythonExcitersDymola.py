@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[29]:
+# In[65]:
 
 
 import platform
@@ -11,15 +11,16 @@ from modelicares import SimRes
 import pandas as pd
 import numpy as np
 import os
+import shutil
 
 
-# In[26]:
+# In[ ]:
 
 
 #This is intended to be used in the manuelnvro Dell using Dymola 2020
 
 
-# In[30]:
+# In[66]:
 
 
 #Setting Dymola Interface
@@ -29,7 +30,7 @@ dymola.openModel("/home/manuelnvro/dev/Gitted/PythonTesting/OpenIPSL-master/Open
 print("Dymola Exciters Simulation Start...\n")
 
 
-# In[33]:
+# In[67]:
 
 
 #Creation of matrix with names, paths and variables
@@ -50,10 +51,25 @@ exciters = { 'names' : ["AC7B","AC8B", "ESAC1A", "ESAC2A", "ESAC6A", "ESDC1A", "
                       "OpenIPSL.Examples.Controls.PSSE.ES.SEXS", "OpenIPSL.Examples.Controls.PSSE.ES.ST6B"],
             'delta' : ['gENROU.delta', 'gENROE.delta' ],
            'pelec' : ['gENROU.PELEC', 'gENROE.PELEC'],
-           'speed' : ['gENROU.SPEED', 'gENROE.SPEED']}
+           'speed' : ['gENROU.SPEED', 'gENROE.SPEED'],
+           'efd': ["aC7B.EFD","aC8B.EFD", "eSAC1A.EFD", "eSAC2A.EFD", "eSAC6A.EFD", "eSDC1A.EFD", "eSST1A.EFD", "eSST3A.EFD", "eSST4B.EFD", 
+                        "eXAC1.EFD", "eXAC2.EFD", "eXAC3.EFD", "eXDC2.EFD", "eXPIC1.EFD", "eXST1.EFD", "eXST3.EFD", "iEEET1.EFD", "iEEET2.EFD", 
+                        "iEEET3.EFD", "iEEET5.EFD", "rEXSYS.EFD", "sCRX.EFD", "sEXS.EFD", "sT6B.EFD"]}
 
 
-# In[35]:
+# In[68]:
+
+
+#Delete old results
+shutil.rmtree('/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/')
+#Create Exciters folder
+os.makedirs('/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/')
+os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/")
+for exciterNumber, exciterName in enumerate(exciters['names']):
+    os.makedirs(f'{exciterName}')
+
+
+# In[69]:
 
 
 #For loop that will iterate between exciters, simulate, and create the .csv file
@@ -70,6 +86,11 @@ for exciterNumber, exciterName in enumerate(exciters['names']):
             print("Simulation failed or model was not found. Below is the translation log:\n")
             log = dymola.getLastErrorLog()
             print(log)
+            try:
+                os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/{exciterName}/")
+                os.remove("dsin.txt")
+            except:
+                pass
         else:
             print(f"{exciterName} Simulation OK...")
             print(".csv Writing Start...") 
@@ -77,30 +98,35 @@ for exciterNumber, exciterName in enumerate(exciters['names']):
             try:
                 print('Verifying if it is a GENROU model...')
                 #Selecting Variables
-                variables = ['Time', exciters['delta'][0], exciters['pelec'][0], exciters['speed'][0], 'GEN1.V', 'LOAD.V', 'GEN2.V', 'FAULT.V' ]
+                variables = ['Time', exciters['delta'][0], exciters['pelec'][0], exciters['speed'][0], exciters['efd'][exciterNumber], 'GEN1.V', 'LOAD.V', 'GEN2.V', 'FAULT.V' ]
                 df_variables = pd.DataFrame([], columns = variables)
                 for var in variables:
                     df_variables.drop(var, axis = 1, inplace = True)
                     df_variables[var] = np.array(sim[var].values())
                 print(f"{exciterName} Variables OK...")
                 #Changing current directory
-                os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/{exciterName}/")
+                os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/")
                 df_variables.to_csv(f'{exciterName}.csv', index = False)          
-                print(f"{exciterName} Write OK...\n") 
+                print(f"{exciterName} Write OK...")
             except:
                 print('Not a GENROU model...')
                 print('Verifying if it is a GENROE model...')
                 #Selecting Variables
-                variables = ['Time', exciters['delta'][1], exciters['pelec'][1], exciters['speed'][1], 'GEN1.V', 'LOAD.V', 'GEN2.V', 'FAULT.V' ]
+                variables = ['Time', exciters['delta'][1], exciters['pelec'][1], exciters['speed'][1],exciters['efd'][exciterNumber] , 'GEN1.V', 'LOAD.V', 'GEN2.V', 'FAULT.V' ]
                 df_variables = pd.DataFrame([], columns = variables)
                 for var in variables:
                     df_variables.drop(var, axis = 1, inplace = True)
                     df_variables[var] = np.array(sim[var].values())
                 print(f"{exciterName} Variables OK...")
                 #Changing current directory
-                os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/{exciterName}/")
+                os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/")
                 df_variables.to_csv(f'{exciterName}.csv', index = False)          
-                print(f"{exciterName} Write OK...\n") 
+                print(f"{exciterName} Write OK...")
+        try:
+            shutil.rmtree(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Exciters/{exciterName}/")
+            print("Delete OK...\n")
+        except:
+            pass
     except DymolaException as ex:
         print("Error: " + str(ex))
 print('Exciter Examples Simulation OK...')
