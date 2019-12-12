@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+# In[5]:
 
 
 import platform
@@ -11,6 +11,7 @@ from modelicares import SimRes
 import pandas as pd
 import numpy as np
 import os
+import shutil
 
 
 # In[198]:
@@ -19,7 +20,7 @@ import os
 #This is intended to be used in the manuelnvro Dell using Dymola 2020
 
 
-# In[3]:
+# In[6]:
 
 
 #Setting Dymola Interface
@@ -29,7 +30,7 @@ dymola.openModel("/home/manuelnvro/dev/Gitted/PythonTesting/OpenIPSL-master/Open
 print("Dymola Machines Simulation Start...\n")
 
 
-# In[4]:
+# In[7]:
 
 
 #Creation of matrix with names, paths and variables
@@ -40,7 +41,19 @@ machines = { 'names' : ["GENROU","GENSAL", "GENCLS", "GENROE", "GENSAE", "CSVGN1
            'speed' : ['gENROU.SPEED', 'gENSAL.SPEED', 'gENCLS.SPEED', 'gENROE.SPEED', 'gENSAE.SPEED', 'cSVGN1.SPEED']}
 
 
-# In[5]:
+# In[8]:
+
+
+#Delete old results
+shutil.rmtree('/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Machines/')
+#Create Exciters folder
+os.makedirs('/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Machines/')
+os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Machines/")
+for machineNumber, machineName in enumerate(machines['names']):
+    os.makedirs(f'{machineName}')
+
+
+# In[10]:
 
 
 #For loop that will iterate between machines, simulate, and create the .csv file
@@ -70,9 +83,14 @@ for machineNumber, machineName in enumerate(machines['names']):
                 df_variables[var] = np.array(sim[var].values())
             print(f"{machineName} Variables OK...")
             #Changing current directory
-            os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Machines/{machineName}/")
+            os.chdir(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Machines/")
             df_variables.to_csv(f'{machineName}.csv', index = False)          
-            print(f"{machineName} Write OK...\n")        
+            print(f"{machineName} Write OK...")       
+        try:
+            shutil.rmtree(f"/home/manuelnvro/dev/Gitted/PythonTesting/WorkingDir/Dymola/Machines/{machineName}/")
+            print("Delete OK...\n")
+        except:
+            pass          
     except DymolaException as ex:
         print("Error: " + str(ex))
 print('Machine Examples Simulation OK...')
