@@ -21,7 +21,7 @@ model HYGOV
     P_0=39999950,
     Q_0=5416571,
     v_0=1) annotation (Placement(transformation(extent={{-96,-10},{-76,10}})));
-  OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV HYGOV(
+  OpenIPSL.Electrical.Controls.PSSE.TG.HYGOV hYGOV(
     VELM=0.02,
     G_MAX=0.415,
     R=0.05,
@@ -71,11 +71,11 @@ equation
       points={{-75,-5},{-75,-24.2222},{-68,-24.2222}},
       color={0,0,127},
       smooth=Smooth.None));
-  connect(gENSAL.PMECH0, HYGOV.PMECH0) annotation (Line(points={{-75,5},{-52,5},
+  connect(gENSAL.PMECH0, hYGOV.PMECH0) annotation (Line(points={{-75,5},{-52,5},
           {-52,45.7778},{-63.5833,45.7778}}, color={0,0,127}));
-  connect(gENSAL.SPEED, HYGOV.SPEED) annotation (Line(points={{-75,7},{-58,7},{
+  connect(gENSAL.SPEED, hYGOV.SPEED) annotation (Line(points={{-75,7},{-58,7},{
           -58,28.6667},{-63.5833,28.6667}}, color={0,0,127}));
-  connect(HYGOV.PMECH, gENSAL.PMECH) annotation (Line(points={{-100.792,36.4444},
+  connect(hYGOV.PMECH, gENSAL.PMECH) annotation (Line(points={{-100.792,36.4444},
           {-110,36.4444},{-110,5},{-98,5}}, color={0,0,127}));
   connect(SCRX.EFD, gENSAL.EFD) annotation (Line(points={{-104.9,-35.7778},{
           -110,-35.7778},{-110,-5},{-98,-5}}, color={0,0,127}));
