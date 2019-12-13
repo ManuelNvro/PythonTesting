@@ -1,5 +1,5 @@
-within OpenIPSL.Examples.Wind.PSSE.WT4G;
-model WT4G1_WT4E1
+within OpenIPSL.Examples.Wind.PSSE;
+model WT4E1
   extends Modelica.Icons.Example;
   constant Real pi=Modelica.Constants.pi;
   parameter Real V1=1.00000;
@@ -64,7 +64,7 @@ model WT4G1_WT4E1
     X=0.5,
     t1=1,
     t2=1.5) annotation (Placement(transformation(extent={{20,-60},{40,-40}})));
-  OpenIPSL.Electrical.Wind.PSSE.WT4G.WT4E1 wT4E1_1(
+  OpenIPSL.Electrical.Wind.PSSE.WT4G.WT4E1 wT4E1(
     PFAFLG=false,
     VARFLG=true,
     Tfv=0.15,
@@ -91,7 +91,7 @@ model WT4G1_WT4E1
     Iphl=1.11,
     Iqhl=1.11,
     PQFLAG=false)
-    annotation (Placement(transformation(extent={{-96,12},{-72,-12}})));
+    annotation (Placement(transformation(extent={{-98,12},{-74,-12}})));
   inner OpenIPSL.Electrical.SystemBase SysData(fn=60, S_b=(100)*1e6) annotation (Placement(transformation(extent={{-100,80},{-48,100}})));
   OpenIPSL.Electrical.Buses.Bus GEN
     annotation (Placement(transformation(extent={{-40,-10},{-20,10}})));
@@ -118,14 +118,14 @@ equation
           70,0}}, color={0,0,255}));
   connect(INF.p, gENCLS2_1.p)
     annotation (Line(points={{70,0},{90,0},{90,0}}, color={0,0,255}));
-  connect(wT4E1_1.WIQCMD, wT4G1.I_qcmd) annotation (Line(points={{-70.8,8.4},{-68,
+  connect(wT4E1.WIQCMD, wT4G1.I_qcmd) annotation (Line(points={{-72.8,8.4},{-68,
           8.4},{-68,9.6},{-62.8,9.6}}, color={0,0,127}));
-  connect(wT4E1_1.WIPCMD, wT4G1.I_pcmd) annotation (Line(points={{-70.8,3.6},{-68,
+  connect(wT4E1.WIPCMD, wT4G1.I_pcmd) annotation (Line(points={{-72.8,3.6},{-68,
           3.6},{-68,4.8},{-62.8,4.8}}, color={0,0,127}));
-  connect(wT4G1.P, wT4E1_1.P) annotation (Line(points={{-65.2,-4.8},{-68,-4.8},
-          {-68,-2.4},{-73.2,-2.4}}, color={0,0,127}));
-  connect(wT4G1.V, wT4E1_1.V) annotation (Line(points={{-65.2,0},{-70,0},{-70,-9.6},
-          {-73.2,-9.6}}, color={0,0,127}));
-  connect(wT4G1.Q, wT4E1_1.Q) annotation (Line(points={{-65.2,-9.6},{-68,-9.6},
-          {-68,-6},{-73.2,-6}}, color={0,0,127}));
-end WT4G1_WT4E1;
+  connect(wT4G1.P, wT4E1.P) annotation (Line(points={{-65.2,-4.8},{-68,-4.8},{
+          -68,-2.4},{-75.2,-2.4}}, color={0,0,127}));
+  connect(wT4G1.V, wT4E1.V) annotation (Line(points={{-65.2,0},{-70,0},{-70,
+          -9.6},{-75.2,-9.6}}, color={0,0,127}));
+  connect(wT4G1.Q, wT4E1.Q) annotation (Line(points={{-65.2,-9.6},{-68,-9.6},{
+          -68,-6},{-75.2,-6}}, color={0,0,127}));
+end WT4E1;

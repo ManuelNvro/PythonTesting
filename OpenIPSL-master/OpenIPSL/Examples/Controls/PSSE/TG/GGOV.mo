@@ -69,7 +69,6 @@ equation
       smooth=Smooth.None));
   connect(gENROU.EFD0, gENROU.EFD) annotation (Line(
       points={{-58,-7.5},{-52,-7.5},{-52,-30},{-102,-30},{-102,-7.5},{-104,-7.5}},
-
       color={0,0,127},
       smooth=Smooth.None));
 

@@ -35,7 +35,7 @@ model PSAT_WT_Test
 equation
   connect(infiniteBus1.p, pwLine5.p) annotation (Line(
       origin={-8.8299,15.0},
-      points={{-30.3809,0},{3.71423,0}},
+      points={{-9.3809,0},{6.3809,0}},
       color={0,0,255}));
   connect(windGenerator1.Vw, dfig_Turbine1.Wind_Speed) annotation (Line(
       origin={43.101,34.2663},
@@ -43,7 +43,7 @@ equation
       color={0,0,127}));
   connect(pwLine5.n, dfig_Turbine1.pin) annotation (Line(
       origin={24.6013,15.0},
-      points={{-6.38363,0},{11.0502,0}},
+      points={{-9.0503,0},{11.0502,0}},
       color={0,0,255}));
   annotation (Diagram(coordinateSystem(
         extent={{-148.5,-105.0},{148.5,105.0}},

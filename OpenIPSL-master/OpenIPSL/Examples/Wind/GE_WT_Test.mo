@@ -57,19 +57,19 @@ model GE_WT_Test
 equation
   connect(infBus2.p, pwLine1.p) annotation (Line(
       origin={-30.0532,1.8477},
-      points={{-23.5266,0.1226},{-23.5266,-0.0614},{-1.61347,-0.0614}},
+      points={{-2.5266,0.1226},{-2.5266,-0.0614},{1.0532,-0.0614}},
       color={0,0,255}));
   connect(pwLine1.n, pwFault1.p) annotation (Line(
       origin={-11.6324,11.3764},
-      points={{3.29907,-9.5901},{3.29907,3.6236},{-3.82487,3.6236}},
+      points={{0.6324,-9.5901},{0.6324,3.6236},{-3.82487,3.6236}},
       color={0,0,255}));
   connect(pwLine1.n, pwLine2.p) annotation (Line(
       origin={-11.5629,1.694},
-      points={{3.22957,0.0923},{3.22957,-0.0462},{-1.79257,-0.0462}},
+      points={{0.5629,0.0923},{0.5629,-0.0462},{0.8741,-0.0462}},
       color={0,0,255}));
   connect(pwLine2.n, pwLine3.p) annotation (Line(
       origin={6.8642,1.7091},
-      points={{3.11367,-0.0613},{3.11367,0.0307},{-1.56057,0.0307}},
+      points={{0.447,-0.0613},{0.447,0.0307},{1.1061,0.0307}},
       color={0,0,255}));
   connect(windGenerator1.Vw, GE_WT_init1.Wind_Speed) annotation (Line(
       origin={70.3333,14.8446},
@@ -77,15 +77,15 @@ equation
       color={0,0,127}));
   connect(pwLine5.n, GE_WT_init1.pwPin1) annotation (Line(
       origin={61.3531,1.7782},
-      points={{3.34327,0.0591},{3.34327,-0.0295},{2.6469,-0.0295}},
+      points={{0.6766,0.0591},{0.6766,-0.0295},{2.6469,-0.0295}},
       color={0,0,255}));
   connect(pwLine4.n, pwLine5.p) annotation (Line(
       origin={43.3432,1.7878},
-      points={{3.32347,-0.099},{3.32347,0.0495},{-1.98017,0.0495}},
+      points={{0.6568,-0.099},{0.6568,0.0495},{0.6865,0.0495}},
       color={0,0,255}));
   connect(pwLine3.n, pwLine4.p) annotation (Line(
       origin={25.3135,1.7058},
-      points={{3.32347,0.034},{3.32347,-0.017},{-1.98017,-0.017}},
+      points={{0.6568,0.034},{0.6568,-0.017},{0.6865,-0.017}},
       color={0,0,255}));
   annotation (Diagram(coordinateSystem(
         extent={{-148.5,-105},{148.5,105}},
